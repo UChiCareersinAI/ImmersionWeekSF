@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Immersion Week SF</title>
-<meta name="description" content="Immersion Week SF — 3 days, 9 sessions, 27 goals. Schedule, slides, reviews, and materials.">
+<meta name="description" content="Immersion Week SF — from a vague idea to a battle-tested prototype in three days. Schedule, slides, reviews, and materials.">
 <style>
   /* ---------- tokens: light ---------- */
   :root {
@@ -73,12 +73,18 @@
     box-shadow: var(--shadow);
   }
   .banner h1 {
-    margin: 0 0 .6rem;
+    margin: 0 0 .5rem;
     font-size: clamp(1.75rem, 4.5vw, 2.75rem);
     font-weight: 400;
     letter-spacing: -.01em;
   }
-  .banner .sub { margin: 0 0 .5rem; font-size: clamp(.95rem, 2vw, 1.1rem); opacity: .92; }
+  .banner .sub {
+    margin: 0 0 1rem;
+    font-size: clamp(1rem, 2.2vw, 1.25rem);
+    opacity: .93;
+    font-style: italic;
+    font-weight: 300;
+  }
   .banner .meta { margin: 0; font-size: clamp(.9rem, 2vw, 1.05rem); opacity: .92; }
   .banner .meta strong { font-weight: 600; }
 
@@ -107,12 +113,17 @@
 
   h3 {
     color: var(--navy);
-    font-size: 1.2rem;
-    margin: 2rem 0 .75rem;
-    padding-bottom: .4rem;
+    font-size: 1.3rem;
+    margin: 2.5rem 0 .9rem;
+    padding-bottom: .5rem;
     border-bottom: 1px solid var(--rule);
   }
-  h3 .day-theme { display: block; font-size: .88rem; font-weight: 400; color: var(--text-muted); font-style: italic; margin-top: .3rem; }
+  h3 .date { font-weight: 400; color: var(--text-muted); font-size: .95rem; }
+  h3 .day-theme {
+    display: block; margin-top: .55rem;
+    font-size: .93rem; font-weight: 400; line-height: 1.5;
+    color: var(--text-muted); font-style: italic;
+  }
 
   /* ---------- tables ---------- */
   .scroller { overflow-x: auto; -webkit-overflow-scrolling: touch; margin-bottom: 1.5rem; }
@@ -123,9 +134,8 @@
     text-align: left;
     padding: .8rem .9rem;
     font-weight: 600;
-    white-space: nowrap;
   }
-  thead th:first-child { border-radius: 6px 0 0 0; }
+  thead th:first-child { border-radius: 6px 0 0 0; white-space: nowrap; }
   thead th:last-child  { border-radius: 0 6px 0 0; }
   tbody td { padding: .8rem .9rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
   tbody tr:nth-child(odd) td { background: var(--stripe); }
@@ -146,23 +156,24 @@
     scroll-margin-top: 1rem;
   }
   .session h4 {
-    margin: 0 0 .8rem;
+    margin: 0 0 .85rem;
     font-size: 1.05rem;
+    font-weight: 600;
     color: var(--text);
+    line-height: 1.45;
   }
-  .session h4 .time { color: var(--navy); font-weight: 700; }
+  .session h4 .time { color: var(--navy); font-weight: 700; white-space: nowrap; }
   .session h4 .id {
     display: inline-block; margin: 0 .45rem;
     background: var(--navy-deep); color: #fff;
     border-radius: 4px; padding: .1rem .45rem;
     font-size: .82rem; font-weight: 700;
   }
-  .session h4 .topic { font-weight: 400; color: var(--text-muted); font-style: italic; }
 
-  .goals { margin: 0 0 .9rem; padding-left: 1.35rem; }
-  .goals li { margin-bottom: .3rem; color: var(--text); }
+  .goals { margin: 0 0 .95rem; padding-left: 1.35rem; }
+  .goals li { margin-bottom: .4rem; }
   .goals-label {
-    margin: 0 0 .4rem; font-size: .78rem; font-weight: 700;
+    margin: 0 0 .45rem; font-size: .78rem; font-weight: 700;
     letter-spacing: .07em; text-transform: uppercase; color: var(--text-muted);
   }
 
@@ -184,7 +195,7 @@
 
   <header class="banner">
     <h1>Immersion Week SF</h1>
-    <p class="sub"><em>Subtitle TBD</em></p>
+    <p class="sub">From a vague idea to a battle-tested prototype &mdash; in three days</p>
     <p class="meta">
       <strong>Dates TBD</strong> &middot; San Francisco &middot; Instructor: <strong>Victor Palacios</strong><br>
       <strong>Daily schedule (PT):</strong> 9:00&ndash;10:00 &nbsp;|&nbsp; 10:00&ndash;11:00 &nbsp;|&nbsp; 11:00&ndash;12:00
@@ -198,6 +209,23 @@
     </p>
   </div>
 
+  <h2>The Arc</h2>
+  <div class="rule"></div>
+  <p class="hint">Three days, one prototype: define it, build it, then try to break it.</p>
+
+  <div class="scroller">
+    <table>
+      <thead>
+        <tr><th>Day</th><th>Title</th><th>What you walk out with</th></tr>
+      </thead>
+      <tbody>
+        <tr><th>Day 1</th><td><strong>🧭 The Blueprint</strong></td><td>A precise problem statement, a mapped workflow, and a task board with owners</td></tr>
+        <tr><th>Day 2</th><td><strong>🔨 The Build</strong></td><td>A working happy-path prototype someone else can drive</td></tr>
+        <tr><th>Day 3</th><td><strong>⚔️ The Battle Test</strong></td><td>A prototype hardened against the edge cases your peers found</td></tr>
+      </tbody>
+    </table>
+  </div>
+
   <h2>Schedule at a Glance</h2>
   <div class="rule"></div>
   <p class="hint">All times Pacific. Click any session to jump to its goals and materials.</p>
@@ -207,29 +235,29 @@
       <thead>
         <tr>
           <th>Time (PT)</th>
-          <th>Day 1 &middot; <span class="tbd">Date TBD</span></th>
-          <th>Day 2 &middot; <span class="tbd">Date TBD</span></th>
-          <th>Day 3 &middot; <span class="tbd">Date TBD</span></th>
+          <th>🧭 Day 1 &mdash; The Blueprint</th>
+          <th>🔨 Day 2 &mdash; The Build</th>
+          <th>⚔️ Day 3 &mdash; The Battle Test</th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <th>9:00 &ndash; 10:00</th>
-          <td><a href="#s11"><b>1.1</b> &mdash; Topic TBD</a></td>
-          <td><a href="#s21"><b>2.1</b> &mdash; Topic TBD</a></td>
-          <td><a href="#s31"><b>3.1</b> &mdash; Topic TBD</a></td>
+          <td><a href="#s11"><b>1.1</b> &mdash; Precise Problem Statement</a></td>
+          <td><a href="#s21"><b>2.1</b> &mdash; Choosing the Stack</a></td>
+          <td><a href="#s31"><b>3.1</b> &mdash; Designing the Attack</a></td>
         </tr>
         <tr>
           <th>10:00 &ndash; 11:00</th>
-          <td><a href="#s12"><b>1.2</b> &mdash; Topic TBD</a></td>
-          <td><a href="#s22"><b>2.2</b> &mdash; Topic TBD</a></td>
-          <td><a href="#s32"><b>3.2</b> &mdash; Topic TBD</a></td>
+          <td><a href="#s12"><b>1.2</b> &mdash; Mapping the Workflow</a></td>
+          <td><a href="#s22"><b>2.2</b> &mdash; Building the Happy Path</a></td>
+          <td><a href="#s32"><b>3.2</b> &mdash; Peer Red-Team Round</a></td>
         </tr>
         <tr>
           <th>11:00 &ndash; 12:00</th>
-          <td><a href="#s13"><b>1.3</b> &mdash; Topic TBD</a></td>
-          <td><a href="#s23"><b>2.3</b> &mdash; Topic TBD</a></td>
-          <td><a href="#s33"><b>3.3</b> &mdash; Topic TBD</a></td>
+          <td><a href="#s13"><b>1.3</b> &mdash; Dividing the Work</a></td>
+          <td><a href="#s23"><b>2.3</b> &mdash; Making It Demoable</a></td>
+          <td><a href="#s33"><b>3.3</b> &mdash; Hardening &amp; Handoff</a></td>
         </tr>
       </tbody>
     </table>
@@ -240,17 +268,18 @@
   <p class="hint">Lecture and material titles below are clickable links to the source materials.</p>
 
   <!-- ================= DAY 1 ================= -->
-  <h3>Day 1 &mdash; <span class="tbd">Date TBD</span>
-    <span class="day-theme">One-line theme for the day &mdash; TBD</span>
+  <h3>🧭 Day 1 &mdash; The Blueprint <span class="date">&middot; Date TBD</span>
+    <span class="day-theme">Identify and define a precise, achievable problem &mdash; then map the entire
+      workflow to reach the solution and divide it across the team's skillset.</span>
   </h3>
 
   <article class="session" id="s11">
-    <h4><span class="time">9:00 &ndash; 10:00</span><span class="id">1.1</span><span class="topic">Topic TBD</span></h4>
+    <h4><span class="time">9:00 &ndash; 10:00</span><span class="id">1.1</span>From Vague Idea to Precise Problem Statement</h4>
     <p class="goals-label">Goals</p>
     <ol class="goals">
-      <li class="tbd">TBD</li>
-      <li class="tbd">TBD</li>
-      <li class="tbd">TBD</li>
+      <li>Tell a <strong>problem</strong> statement apart from a <strong>solution</strong> statement, and rewrite a vague ask as a precise one</li>
+      <li>Apply a scoping test &mdash; measurable outcome, data actually available, achievable in three days &mdash; to kill or keep an idea</li>
+      <li>Write a one-sentence problem statement naming the <strong>user</strong>, the <strong>input</strong>, and the <strong>success criterion</strong></li>
     </ol>
     <p class="links">
       <span><b>Slides:</b> <span class="tbd">TBD</span></span>
@@ -261,12 +290,12 @@
   </article>
 
   <article class="session" id="s12">
-    <h4><span class="time">10:00 &ndash; 11:00</span><span class="id">1.2</span><span class="topic">Topic TBD</span></h4>
+    <h4><span class="time">10:00 &ndash; 11:00</span><span class="id">1.2</span>Mapping the Workflow to the Solution</h4>
     <p class="goals-label">Goals</p>
     <ol class="goals">
-      <li class="tbd">TBD</li>
-      <li class="tbd">TBD</li>
-      <li class="tbd">TBD</li>
+      <li>Decompose the problem into a stepwise workflow, from raw input to delivered output</li>
+      <li>Name what each step needs &mdash; data, a tool, or a human decision &mdash; and what it hands to the next step</li>
+      <li>Mark the riskiest, least-understood step on the map and decide how to de-risk it first</li>
     </ol>
     <p class="links">
       <span><b>Slides:</b> <span class="tbd">TBD</span></span>
@@ -277,12 +306,12 @@
   </article>
 
   <article class="session" id="s13">
-    <h4><span class="time">11:00 &ndash; 12:00</span><span class="id">1.3</span><span class="topic">Topic TBD</span></h4>
+    <h4><span class="time">11:00 &ndash; 12:00</span><span class="id">1.3</span>Dividing the Work Across the Team</h4>
     <p class="goals-label">Goals</p>
     <ol class="goals">
-      <li class="tbd">TBD</li>
-      <li class="tbd">TBD</li>
-      <li class="tbd">TBD</li>
+      <li>Inventory the team's actual skills and assign every workflow step a single owner</li>
+      <li>Define the handoff between owners &mdash; the shape of the data crossing each boundary &mdash; so parallel work integrates</li>
+      <li>Leave with a task board: owner, deadline, and a definition of done for every Day 2 task</li>
     </ol>
     <p class="links">
       <span><b>Slides:</b> <span class="tbd">TBD</span></span>
@@ -293,17 +322,17 @@
   </article>
 
   <!-- ================= DAY 2 ================= -->
-  <h3>Day 2 &mdash; <span class="tbd">Date TBD</span>
-    <span class="day-theme">One-line theme for the day &mdash; TBD</span>
+  <h3>🔨 Day 2 &mdash; The Build <span class="date">&middot; Date TBD</span>
+    <span class="day-theme">Construct a 'happy path' prototype using low-code tools.</span>
   </h3>
 
   <article class="session" id="s21">
-    <h4><span class="time">9:00 &ndash; 10:00</span><span class="id">2.1</span><span class="topic">Topic TBD</span></h4>
+    <h4><span class="time">9:00 &ndash; 10:00</span><span class="id">2.1</span>Choosing Your Low-Code Stack</h4>
     <p class="goals-label">Goals</p>
     <ol class="goals">
-      <li class="tbd">TBD</li>
-      <li class="tbd">TBD</li>
-      <li class="tbd">TBD</li>
+      <li>Match each step of yesterday's workflow map to a specific low-code tool</li>
+      <li>Stand the toolchain up end to end and push a trivial payload all the way through it</li>
+      <li>Decide deliberately what to <strong>stub</strong> and what to <strong>build</strong> &mdash; protecting the three hours you actually have</li>
     </ol>
     <p class="links">
       <span><b>Slides:</b> <span class="tbd">TBD</span></span>
@@ -314,12 +343,12 @@
   </article>
 
   <article class="session" id="s22">
-    <h4><span class="time">10:00 &ndash; 11:00</span><span class="id">2.2</span><span class="topic">Topic TBD</span></h4>
+    <h4><span class="time">10:00 &ndash; 11:00</span><span class="id">2.2</span>Building the Happy Path</h4>
     <p class="goals-label">Goals</p>
     <ol class="goals">
-      <li class="tbd">TBD</li>
-      <li class="tbd">TBD</li>
-      <li class="tbd">TBD</li>
+      <li>Implement each step against one known-good input &mdash; no edge cases, no error handling, not yet</li>
+      <li>Connect the steps so a single input reaches a finished output with no manual intervention</li>
+      <li>Snapshot the working version the moment it works, before adding anything else to it</li>
     </ol>
     <p class="links">
       <span><b>Slides:</b> <span class="tbd">TBD</span></span>
@@ -330,12 +359,12 @@
   </article>
 
   <article class="session" id="s23">
-    <h4><span class="time">11:00 &ndash; 12:00</span><span class="id">2.3</span><span class="topic">Topic TBD</span></h4>
+    <h4><span class="time">11:00 &ndash; 12:00</span><span class="id">2.3</span>Making It Demoable</h4>
     <p class="goals-label">Goals</p>
     <ol class="goals">
-      <li class="tbd">TBD</li>
-      <li class="tbd">TBD</li>
-      <li class="tbd">TBD</li>
+      <li>Wrap the prototype in something a stranger can drive without you narrating</li>
+      <li>Write a three-minute demo script with a scripted input and a known-good outcome</li>
+      <li>Document what is stubbed, faked, or known-broken &mdash; this is Day 3's attack surface</li>
     </ol>
     <p class="links">
       <span><b>Slides:</b> <span class="tbd">TBD</span></span>
@@ -346,17 +375,17 @@
   </article>
 
   <!-- ================= DAY 3 ================= -->
-  <h3>Day 3 &mdash; <span class="tbd">Date TBD</span>
-    <span class="day-theme">One-line theme for the day &mdash; TBD</span>
+  <h3>⚔️ Day 3 &mdash; The Battle Test <span class="date">&middot; Date TBD</span>
+    <span class="day-theme">Rigorously peer-test prototypes to identify and harden against edge cases.</span>
   </h3>
 
   <article class="session" id="s31">
-    <h4><span class="time">9:00 &ndash; 10:00</span><span class="id">3.1</span><span class="topic">Topic TBD</span></h4>
+    <h4><span class="time">9:00 &ndash; 10:00</span><span class="id">3.1</span>Designing the Attack</h4>
     <p class="goals-label">Goals</p>
     <ol class="goals">
-      <li class="tbd">TBD</li>
-      <li class="tbd">TBD</li>
-      <li class="tbd">TBD</li>
+      <li>Build an edge-case inventory across the standard axes: empty, malformed, adversarial, out-of-scope, and at scale</li>
+      <li>Turn that inventory into a concrete test script another team can execute without asking you questions</li>
+      <li>Draw the line between outright <strong>failure</strong> and acceptable <strong>degradation</strong> before testing starts</li>
     </ol>
     <p class="links">
       <span><b>Slides:</b> <span class="tbd">TBD</span></span>
@@ -367,12 +396,12 @@
   </article>
 
   <article class="session" id="s32">
-    <h4><span class="time">10:00 &ndash; 11:00</span><span class="id">3.2</span><span class="topic">Topic TBD</span></h4>
+    <h4><span class="time">10:00 &ndash; 11:00</span><span class="id">3.2</span>Peer Red-Team Round</h4>
     <p class="goals-label">Goals</p>
     <ol class="goals">
-      <li class="tbd">TBD</li>
-      <li class="tbd">TBD</li>
-      <li class="tbd">TBD</li>
+      <li>Break another team's prototype &mdash; run their script, then improvise past it</li>
+      <li>Log every failure with reproduction steps and a severity, so it can be fixed without you in the room</li>
+      <li>Receive your own failure log without defending, explaining, or arguing with it</li>
     </ol>
     <p class="links">
       <span><b>Slides:</b> <span class="tbd">TBD</span></span>
@@ -383,12 +412,12 @@
   </article>
 
   <article class="session" id="s33">
-    <h4><span class="time">11:00 &ndash; 12:00</span><span class="id">3.3</span><span class="topic">Topic TBD</span></h4>
+    <h4><span class="time">11:00 &ndash; 12:00</span><span class="id">3.3</span>Hardening &amp; Handoff</h4>
     <p class="goals-label">Goals</p>
     <ol class="goals">
-      <li class="tbd">TBD</li>
-      <li class="tbd">TBD</li>
-      <li class="tbd">TBD</li>
+      <li>Triage the failure log by severity against cost to fix, and commit to a cut line</li>
+      <li>Fix what's above the line and re-run the exact tests that caught each one</li>
+      <li>Present the honest version: what broke, what you fixed, and what you would fix next</li>
     </ol>
     <p class="links">
       <span><b>Slides:</b> <span class="tbd">TBD</span></span>
@@ -405,18 +434,18 @@
   <div class="scroller">
     <table>
       <thead>
-        <tr><th>Session</th><th>Slides</th><th>Review</th><th>Materials</th><th>Homework</th></tr>
+        <tr><th>Session</th><th>Topic</th><th>Slides</th><th>Review</th><th>Materials</th><th>Homework</th></tr>
       </thead>
       <tbody>
-        <tr><th><a href="#s11">1.1</a></th><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
-        <tr><th><a href="#s12">1.2</a></th><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
-        <tr><th><a href="#s13">1.3</a></th><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
-        <tr><th><a href="#s21">2.1</a></th><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
-        <tr><th><a href="#s22">2.2</a></th><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
-        <tr><th><a href="#s23">2.3</a></th><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
-        <tr><th><a href="#s31">3.1</a></th><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
-        <tr><th><a href="#s32">3.2</a></th><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
-        <tr><th><a href="#s33">3.3</a></th><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
+        <tr><th><a href="#s11">1.1</a></th><td>Precise Problem Statement</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
+        <tr><th><a href="#s12">1.2</a></th><td>Mapping the Workflow</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
+        <tr><th><a href="#s13">1.3</a></th><td>Dividing the Work</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
+        <tr><th><a href="#s21">2.1</a></th><td>Choosing the Stack</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
+        <tr><th><a href="#s22">2.2</a></th><td>Building the Happy Path</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
+        <tr><th><a href="#s23">2.3</a></th><td>Making It Demoable</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
+        <tr><th><a href="#s31">3.1</a></th><td>Designing the Attack</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
+        <tr><th><a href="#s32">3.2</a></th><td>Peer Red-Team Round</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
+        <tr><th><a href="#s33">3.3</a></th><td>Hardening &amp; Handoff</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
       </tbody>
     </table>
   </div>
