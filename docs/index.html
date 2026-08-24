@@ -207,6 +207,21 @@
 
   .tbd { color: var(--text-muted); font-style: italic; }
 
+  .alt { color: var(--text-muted); font-size: .86rem; font-style: italic; font-weight: 400; }
+
+  .dayopen {
+    margin: 0 0 1rem;
+    padding: .6rem .9rem;
+    background: var(--chip-bg); color: var(--chip-text);
+    border-radius: 6px;
+    font-size: .92rem;
+  }
+
+  h3.plain {
+    font-size: 1.05rem; color: var(--text);
+    margin: 1.75rem 0 .7rem; padding-bottom: .35rem;
+  }
+
   footer {
     margin-top: 3.5rem; padding-top: 1.25rem;
     border-top: 1px solid var(--rule);
@@ -260,24 +275,23 @@
         <tr><th>Time (PT)</th><th>Block</th><th class="num">Length</th></tr>
       </thead>
       <tbody>
-        <tr><th>9:00 &ndash; 9:20</th><td>📝 Review assignment &middot; Qualtrics</td><td class="num">20 min</td></tr>
+        <tr><th>9:00 &ndash; 9:20</th><td>📝 <strong>Review assignment</strong> &middot; Qualtrics<br><span class="alt">Day 1 only: 👋 Intro to the course &amp; instructor</span></td><td class="num">20 min</td></tr>
         <tr><th>9:20 &ndash; 9:55</th><td>🎓 <strong>Hour 1 lecture</strong></td><td class="num">35 min</td></tr>
         <tr class="minor"><th>9:55 &ndash; 10:00</th><td>☕ Break</td><td class="num">5 min</td></tr>
-        <tr><th>10:00 &ndash; 10:20</th><td>📝 Review assignment &middot; Qualtrics</td><td class="num">20 min</td></tr>
-        <tr><th>10:20 &ndash; 10:55</th><td>🎓 <strong>Hour 2 lecture</strong></td><td class="num">35 min</td></tr>
+        <tr><th>10:00 &ndash; 10:55</th><td>🎓 <strong>Hour 2 lecture</strong></td><td class="num">55 min</td></tr>
         <tr class="minor"><th>10:55 &ndash; 11:00</th><td>☕ Break</td><td class="num">5 min</td></tr>
-        <tr><th>11:00 &ndash; 11:20</th><td>📝 Review assignment &middot; Qualtrics</td><td class="num">20 min</td></tr>
-        <tr><th>11:20 &ndash; 11:50</th><td>🎓 <strong>Hour 3 lecture</strong></td><td class="num">30 min</td></tr>
+        <tr><th>11:00 &ndash; 11:50</th><td>🎓 <strong>Hour 3 lecture</strong></td><td class="num">50 min</td></tr>
         <tr class="minor"><th>11:50 &ndash; 12:00</th><td>🏢 Prep for Company Visit</td><td class="num">10 min</td></tr>
       </tbody>
     </table>
   </div>
 
   <div class="callout">
-    <p><strong>Two exceptions to the rhythm.</strong></p>
+    <p><strong>Three things to know about the rhythm.</strong></p>
     <ul>
-      <li><strong>Day 1, 9:00&ndash;9:20</strong> replaces the review with a <strong>20-minute intro to the course and instructor</strong> &mdash; there is nothing to review yet.</li>
-      <li><strong>Hour 3 has no break.</strong> The lecture ends at the 50-minute mark and the day closes with Prep for Company Visit.</li>
+      <li><strong>One review per day, and only at 9:00</strong> &mdash; not at the top of every hour.</li>
+      <li><strong>Day 1 has no review at all.</strong> There is nothing to review yet, so it opens with a 20-minute intro to the course and instructor.</li>
+      <li><strong>The day ends at 11:50.</strong> Hour 3 takes no break; the last 10 minutes are Prep for Company Visit.</li>
     </ul>
   </div>
 
@@ -287,8 +301,8 @@
         <tr><th>Where the 180 minutes go</th><th class="num">Minutes</th></tr>
       </thead>
       <tbody>
-        <tr><th>🎓 Lecture (35 + 35 + 30)</th><td class="num"><strong>100</strong></td></tr>
-        <tr><th>📝 Review assignments (3 &times; 20)</th><td class="num">60</td></tr>
+        <tr><th>🎓 Lecture (35 + 55 + 50)</th><td class="num"><strong>140</strong></td></tr>
+        <tr><th>📝 Review assignment <span class="alt">(Day 1: intro)</span></th><td class="num">20</td></tr>
         <tr><th>☕ Breaks (2 &times; 5)</th><td class="num">10</td></tr>
         <tr><th>🏢 Prep for Company Visit</th><td class="num">10</td></tr>
         <tr><th><strong>Total</strong></th><td class="num"><strong>180</strong></td></tr>
@@ -304,7 +318,7 @@
     <table>
       <thead>
         <tr>
-          <th>Hour</th>
+          <th>Lecture</th>
           <th>🧭 Day 1 &mdash; The Blueprint</th>
           <th>🔨 Day 2 &mdash; The Build</th>
           <th>⚔️ Day 3 &mdash; The Battle Test</th>
@@ -312,19 +326,25 @@
       </thead>
       <tbody>
         <tr>
-          <th>Hour 1 <span class="hourlabel">9:00&ndash;10:00<br>lecture 9:20&ndash;9:55</span></th>
+          <th>9:00 &ndash; 9:20 <span class="hourlabel">opening block</span></th>
+          <td>👋 Intro to course &amp; instructor</td>
+          <td>📝 Review &middot; <span class="tbd">Qualtrics TBD</span></td>
+          <td>📝 Review &middot; <span class="tbd">Qualtrics TBD</span></td>
+        </tr>
+        <tr>
+          <th>Hour 1 <span class="hourlabel">lecture 9:20&ndash;9:55</span></th>
           <td><a href="#s11"><b>1.1</b> &mdash; Precise Problem Statement</a></td>
           <td><a href="#s21"><b>2.1</b> &mdash; Choosing the Stack</a></td>
           <td><a href="#s31"><b>3.1</b> &mdash; Designing the Attack</a></td>
         </tr>
         <tr>
-          <th>Hour 2 <span class="hourlabel">10:00&ndash;11:00<br>lecture 10:20&ndash;10:55</span></th>
+          <th>Hour 2 <span class="hourlabel">lecture 10:00&ndash;10:55</span></th>
           <td><a href="#s12"><b>1.2</b> &mdash; Mapping the Workflow</a></td>
           <td><a href="#s22"><b>2.2</b> &mdash; Building the Happy Path</a></td>
           <td><a href="#s32"><b>3.2</b> &mdash; Peer Red-Team Round</a></td>
         </tr>
         <tr>
-          <th>Hour 3 <span class="hourlabel">11:00&ndash;12:00<br>lecture 11:20&ndash;11:50</span></th>
+          <th>Hour 3 <span class="hourlabel">lecture 11:00&ndash;11:50</span></th>
           <td><a href="#s13"><b>1.3</b> &mdash; Dividing the Work</a></td>
           <td><a href="#s23"><b>2.3</b> &mdash; Making It Demoable</a></td>
           <td><a href="#s33"><b>3.3</b> &mdash; Hardening &amp; Handoff</a></td>
@@ -342,11 +362,11 @@
     <span class="day-theme">Identify and define a precise, achievable problem &mdash; then map the entire
       workflow to reach the solution and divide it across the team's skillset.</span>
   </h3>
+  <p class="dayopen"><strong>👋 9:00 &ndash; 9:20 &middot; Intro to the course and instructor</strong> &mdash; no review on Day 1.</p>
 
   <article class="session" id="s11">
     <h4><span class="time">Hour 1</span><span class="id">1.1</span>From Vague Idea to Precise Problem Statement</h4>
     <p class="timing">
-      <span class="step">👋 Intro to course &amp; instructor 9:00&ndash;9:20</span><span class="arrow">&rarr;</span>
       <span class="step lecture">🎓 Lecture 9:20&ndash;9:55</span><span class="arrow">&rarr;</span>
       <span class="step">☕ Break 9:55&ndash;10:00</span>
     </p>
@@ -366,8 +386,7 @@
   <article class="session" id="s12">
     <h4><span class="time">Hour 2</span><span class="id">1.2</span>Mapping the Workflow to the Solution</h4>
     <p class="timing">
-      <span class="step">📝 Review 10:00&ndash;10:20 &middot; <span class="tbd">Qualtrics TBD</span></span><span class="arrow">&rarr;</span>
-      <span class="step lecture">🎓 Lecture 10:20&ndash;10:55</span><span class="arrow">&rarr;</span>
+      <span class="step lecture">🎓 Lecture 10:00&ndash;10:55</span><span class="arrow">&rarr;</span>
       <span class="step">☕ Break 10:55&ndash;11:00</span>
     </p>
     <p class="goals-label">Goals</p>
@@ -386,8 +405,7 @@
   <article class="session" id="s13">
     <h4><span class="time">Hour 3</span><span class="id">1.3</span>Dividing the Work Across the Team</h4>
     <p class="timing">
-      <span class="step">📝 Review 11:00&ndash;11:20 &middot; <span class="tbd">Qualtrics TBD</span></span><span class="arrow">&rarr;</span>
-      <span class="step lecture">🎓 Lecture 11:20&ndash;11:50</span><span class="arrow">&rarr;</span>
+      <span class="step lecture">🎓 Lecture 11:00&ndash;11:50</span><span class="arrow">&rarr;</span>
       <span class="step">🏢 Prep for Company Visit 11:50&ndash;12:00</span>
     </p>
     <p class="goals-label">Goals</p>
@@ -407,11 +425,11 @@
   <h3>🔨 Day 2 &mdash; The Build <span class="date">&middot; Date TBD</span>
     <span class="day-theme">Construct a 'happy path' prototype using low-code tools.</span>
   </h3>
+  <p class="dayopen"><strong>📝 9:00 &ndash; 9:20 &middot; Review assignment</strong> &mdash; <span class="tbd">Qualtrics link TBD</span></p>
 
   <article class="session" id="s21">
     <h4><span class="time">Hour 1</span><span class="id">2.1</span>Choosing Your Low-Code Stack</h4>
     <p class="timing">
-      <span class="step">📝 Review 9:00&ndash;9:20 &middot; <span class="tbd">Qualtrics TBD</span></span><span class="arrow">&rarr;</span>
       <span class="step lecture">🎓 Lecture 9:20&ndash;9:55</span><span class="arrow">&rarr;</span>
       <span class="step">☕ Break 9:55&ndash;10:00</span>
     </p>
@@ -431,8 +449,7 @@
   <article class="session" id="s22">
     <h4><span class="time">Hour 2</span><span class="id">2.2</span>Building the Happy Path</h4>
     <p class="timing">
-      <span class="step">📝 Review 10:00&ndash;10:20 &middot; <span class="tbd">Qualtrics TBD</span></span><span class="arrow">&rarr;</span>
-      <span class="step lecture">🎓 Lecture 10:20&ndash;10:55</span><span class="arrow">&rarr;</span>
+      <span class="step lecture">🎓 Lecture 10:00&ndash;10:55</span><span class="arrow">&rarr;</span>
       <span class="step">☕ Break 10:55&ndash;11:00</span>
     </p>
     <p class="goals-label">Goals</p>
@@ -451,8 +468,7 @@
   <article class="session" id="s23">
     <h4><span class="time">Hour 3</span><span class="id">2.3</span>Making It Demoable</h4>
     <p class="timing">
-      <span class="step">📝 Review 11:00&ndash;11:20 &middot; <span class="tbd">Qualtrics TBD</span></span><span class="arrow">&rarr;</span>
-      <span class="step lecture">🎓 Lecture 11:20&ndash;11:50</span><span class="arrow">&rarr;</span>
+      <span class="step lecture">🎓 Lecture 11:00&ndash;11:50</span><span class="arrow">&rarr;</span>
       <span class="step">🏢 Prep for Company Visit 11:50&ndash;12:00</span>
     </p>
     <p class="goals-label">Goals</p>
@@ -472,11 +488,11 @@
   <h3>⚔️ Day 3 &mdash; The Battle Test <span class="date">&middot; Date TBD</span>
     <span class="day-theme">Rigorously peer-test prototypes to identify and harden against edge cases.</span>
   </h3>
+  <p class="dayopen"><strong>📝 9:00 &ndash; 9:20 &middot; Review assignment</strong> &mdash; <span class="tbd">Qualtrics link TBD</span></p>
 
   <article class="session" id="s31">
     <h4><span class="time">Hour 1</span><span class="id">3.1</span>Designing the Attack</h4>
     <p class="timing">
-      <span class="step">📝 Review 9:00&ndash;9:20 &middot; <span class="tbd">Qualtrics TBD</span></span><span class="arrow">&rarr;</span>
       <span class="step lecture">🎓 Lecture 9:20&ndash;9:55</span><span class="arrow">&rarr;</span>
       <span class="step">☕ Break 9:55&ndash;10:00</span>
     </p>
@@ -496,8 +512,7 @@
   <article class="session" id="s32">
     <h4><span class="time">Hour 2</span><span class="id">3.2</span>Peer Red-Team Round</h4>
     <p class="timing">
-      <span class="step">📝 Review 10:00&ndash;10:20 &middot; <span class="tbd">Qualtrics TBD</span></span><span class="arrow">&rarr;</span>
-      <span class="step lecture">🎓 Lecture 10:20&ndash;10:55</span><span class="arrow">&rarr;</span>
+      <span class="step lecture">🎓 Lecture 10:00&ndash;10:55</span><span class="arrow">&rarr;</span>
       <span class="step">☕ Break 10:55&ndash;11:00</span>
     </p>
     <p class="goals-label">Goals</p>
@@ -516,8 +531,7 @@
   <article class="session" id="s33">
     <h4><span class="time">Hour 3</span><span class="id">3.3</span>Hardening &amp; Handoff</h4>
     <p class="timing">
-      <span class="step">📝 Review 11:00&ndash;11:20 &middot; <span class="tbd">Qualtrics TBD</span></span><span class="arrow">&rarr;</span>
-      <span class="step lecture">🎓 Lecture 11:20&ndash;11:50</span><span class="arrow">&rarr;</span>
+      <span class="step lecture">🎓 Lecture 11:00&ndash;11:50</span><span class="arrow">&rarr;</span>
       <span class="step">🏢 Prep for Company Visit 11:50&ndash;12:00</span>
     </p>
     <p class="goals-label">Goals</p>
@@ -536,23 +550,36 @@
   <h2>Materials Index</h2>
   <div class="rule"></div>
   <p class="hint">Every link in one place, for when you know what you want but not which session it was in.
-    <strong>8 Qualtrics review links</strong> to come &mdash; one per session except 1.1, which opens with the course intro instead.</p>
+    <strong>2 Qualtrics review links</strong> to come &mdash; one for Day 2, one for Day 3.</p>
 
+  <h3 class="plain">Opening block &middot; 9:00 &ndash; 9:20</h3>
+  <div class="scroller">
+    <table class="rhythm">
+      <thead><tr><th>Day</th><th>Block</th><th>Link</th></tr></thead>
+      <tbody>
+        <tr><th>Day 1</th><td>👋 Intro to the course and instructor</td><td class="tbd">no review</td></tr>
+        <tr><th>Day 2</th><td>📝 Review assignment</td><td class="tbd">Qualtrics TBD</td></tr>
+        <tr><th>Day 3</th><td>📝 Review assignment</td><td class="tbd">Qualtrics TBD</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h3 class="plain">Sessions</h3>
   <div class="scroller">
     <table>
       <thead>
-        <tr><th>Session</th><th>Topic</th><th>Review &middot; Qualtrics</th><th>Slides</th><th>Materials</th><th>Homework</th></tr>
+        <tr><th>Session</th><th>Lecture</th><th>Topic</th><th>Slides</th><th>Materials</th><th>Homework</th></tr>
       </thead>
       <tbody>
-        <tr><th><a href="#s11">1.1</a></th><td>Precise Problem Statement</td><td class="tbd">intro, no review</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
-        <tr><th><a href="#s12">1.2</a></th><td>Mapping the Workflow</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
-        <tr><th><a href="#s13">1.3</a></th><td>Dividing the Work</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
-        <tr><th><a href="#s21">2.1</a></th><td>Choosing the Stack</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
-        <tr><th><a href="#s22">2.2</a></th><td>Building the Happy Path</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
-        <tr><th><a href="#s23">2.3</a></th><td>Making It Demoable</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
-        <tr><th><a href="#s31">3.1</a></th><td>Designing the Attack</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
-        <tr><th><a href="#s32">3.2</a></th><td>Peer Red-Team Round</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
-        <tr><th><a href="#s33">3.3</a></th><td>Hardening &amp; Handoff</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
+        <tr><th><a href="#s11">1.1</a></th><td>9:20&ndash;9:55</td><td>Precise Problem Statement</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
+        <tr><th><a href="#s12">1.2</a></th><td>10:00&ndash;10:55</td><td>Mapping the Workflow</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
+        <tr><th><a href="#s13">1.3</a></th><td>11:00&ndash;11:50</td><td>Dividing the Work</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
+        <tr><th><a href="#s21">2.1</a></th><td>9:20&ndash;9:55</td><td>Choosing the Stack</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
+        <tr><th><a href="#s22">2.2</a></th><td>10:00&ndash;10:55</td><td>Building the Happy Path</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
+        <tr><th><a href="#s23">2.3</a></th><td>11:00&ndash;11:50</td><td>Making It Demoable</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
+        <tr><th><a href="#s31">3.1</a></th><td>9:20&ndash;9:55</td><td>Designing the Attack</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
+        <tr><th><a href="#s32">3.2</a></th><td>10:00&ndash;10:55</td><td>Peer Red-Team Round</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
+        <tr><th><a href="#s33">3.3</a></th><td>11:00&ndash;11:50</td><td>Hardening &amp; Handoff</td><td class="tbd">TBD</td><td class="tbd">TBD</td><td class="tbd">TBD</td></tr>
       </tbody>
     </table>
   </div>
