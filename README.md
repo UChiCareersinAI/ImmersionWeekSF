@@ -10,15 +10,7 @@
 
 **9:00 AM – 12:00 PM PT daily**
 
-**[📄 View the styled schedule page →](https://uchicareersinai.github.io/ImmersionWeekSF/)**
-
 </div>
-
----
-
-> [!TIP]
-> **Have a question about the material, careers, or mock interviews?**
-> Book a 1:1 anytime — this link is good all year: **[calendly.com/victor_palacios/career-services](https://calendly.com/victor_palacios/career-services)**
 
 ---
 
@@ -259,20 +251,11 @@ All times Pacific. Click any session to jump to its goals and materials.
 ```
 .
 ├── README.md            ← you are here (the schedule everyone reads)
-├── docs/
-│   ├── index.html       ← styled GitHub Pages version of this same schedule
-│   └── .nojekyll        ← tells Pages to serve the HTML as-is
 └── materials/           ← handouts, datasets, notebooks hosted in-repo
 ```
 
-**Two places, one schedule.** `README.md` renders on the repo homepage with no
-setup. `docs/index.html` is the styled version (navy banner, striped tables)
-served via GitHub Pages. They carry the same content — when one changes, the
-other changes with it.
-
-**To turn on the Pages site:** Settings → Pages → Source: *Deploy from a branch*
-→ Branch: `main` (or this branch) → Folder: `/docs` → Save. The site lands at
-`https://uchicareersinai.github.io/ImmersionWeekSF/`.
+**This README is the schedule.** It renders on the repo homepage with no setup,
+works in the GitHub mobile app, and can be edited straight in the browser.
 
 **Session numbering** is `<day>.<hour>` — so `2.3` is Day 2, the 11:00 hour.
 Goals inside a session are `1`, `2`, `3`, making `2.3` goal `1` unambiguous to

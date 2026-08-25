@@ -21,13 +21,6 @@ Use a repo-relative path from `README.md`:
 [Starter notebook](materials/day-1/starter.ipynb)
 ```
 
-And an absolute URL from `docs/index.html`, since the Pages site is served from
-a different path than the repo:
-
-```html
-<a href="https://github.com/UChiCareersinAI/ImmersionWeekSF/blob/main/materials/day-1/starter.ipynb">Starter notebook</a>
-```
-
 ## Notes
 
 - Keep filenames lowercase with hyphens — no spaces. They become URLs.
