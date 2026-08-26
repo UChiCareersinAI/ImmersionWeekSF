@@ -56,7 +56,7 @@
 2. Turn that workflow into a **Claude Artifact** — a diagram the whole team can see, revise, and share by link
 3. Name what each step needs — data, a tool, a **Claude Routine** on a schedule, or a human decision — then have Claude generate the three ways the riskiest step most likely fails
 
-📊 [Slides](#)
+📊 [Slides](https://docs.google.com/presentation/d/1XAnYqdYMZUFAWrHt89fI3VXio4r9zw1oFZUXLiXNwnk/edit)
 
 <a id="s14"></a>
 
