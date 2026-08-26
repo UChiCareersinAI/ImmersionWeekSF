@@ -34,7 +34,7 @@
 2. Apply a scoping test — measurable outcome, data actually available, achievable in three days — and make Claude argue the opposite case before you commit
 3. Stand up a **Claude Project** as the team's shared brain: instructions, uploaded context, one place everyone works from
 
-📊 [Slides](https://docs.google.com/presentation/d/19F_dyS1gyARTKDC4A7VhXfAqa37Ww3J-jo4HBQzW1LM/edit)
+📊 <a href="https://docs.google.com/presentation/d/19F_dyS1gyARTKDC4A7VhXfAqa37Ww3J-jo4HBQzW1LM/edit" target="_blank" rel="noopener">Slides</a>
 
 <a id="s12"></a>
 
