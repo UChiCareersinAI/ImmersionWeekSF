@@ -16,10 +16,8 @@
 |:--|:--|:--|:--|
 | `9:00–9:20` | 👋 Course & instructor intro | 📝 [Review](#) · Qualtrics | 📝 [Review](#) · Qualtrics |
 | `9:20–9:55` | [**1.1** Precise Problem Statement](#s11)<br><sub>Prompt Engineering · Projects</sub> | [**2.1** Choosing the Stack](#s21)<br><sub>RAG · Projects</sub> | [**3.1** Designing the Attack](#s31)<br><sub>Agents</sub> |
-| `10:00–10:55` | [**1.2** Mapping the Workflow](#s12)<br><sub>Artifacts</sub> | [**2.2** Building the Happy Path](#s22)<br><sub>Claude Code · GitHub</sub> | [**3.2** Peer Red-Team Round](#s32)<br><sub>Agents · Nvidia API</sub> |
-| `11:00–11:50` | [**1.3** Dividing the Work](#s13)<br><sub>Cowork · GitHub</sub> | [**2.3** Making It Demoable](#s23)<br><sub>Pages · Cloudflare</sub> | [**3.3** Hardening & Handoff](#s33)<br><sub>Routines · GitHub</sub> |
-
-<sub>☕ 5-minute breaks at 9:55 and 10:55 · 🏢 Prep for Company Visit 11:50–12:00 · Day 1 opens with the intro, not a review · tools climb easiest → hardest across the three days</sub>
+| `10:00–10:55` | [**1.2** Mapping the Workflow](#s12)<br><sub>Artifacts · Routines</sub> | [**2.2** Building the Happy Path](#s22)<br><sub>Claude Code · GitHub</sub> | [**3.2** Peer Red-Team Round](#s32)<br><sub>Agents · Nvidia API</sub> |
+| `11:00–11:50` | [**1.3** Dividing the Work](#s13)<br><sub>Cowork · GitHub</sub> | [**2.3** Making It Demoable](#s23)<br><sub>Pages · Cloudflare</sub> | [**3.3** Hardening & Handoff](#s33)<br><sub>Unlimited Routines · GitHub</sub> |
 
 ---
 
@@ -41,11 +39,11 @@
 <a id="s12"></a>
 
 ### 1.2 · Mapping the Workflow to the Solution
-`10:00–10:55` · 🤖 `Claude Artifacts` `Prompt Engineering`
+`10:00–10:55` · 🤖 `Claude Artifacts` `Claude Routines` `Prompt Engineering`
 
 1. Decompose the problem into a stepwise workflow, from raw input to delivered output
 2. Turn that workflow into a **Claude Artifact** — a diagram the whole team can see, revise, and share by link
-3. Name what each step needs (data, a tool, or a human decision), then have Claude generate the three ways the riskiest step most likely fails
+3. Name what each step needs — data, a tool, a **Claude Routine** on a schedule, or a human decision — then have Claude generate the three ways the riskiest step most likely fails
 
 📊 [Slides](#) · 📎 [Materials](#) · ✏️ Homework `TBD`
 
@@ -130,11 +128,11 @@
 <a id="s33"></a>
 
 ### 3.3 · Hardening & Handoff
-`11:00–11:50` · 🤖 `Claude Routines` `GitHub`
+`11:00–11:50` · 🤖 `Unlimited Routines` `GitHub`
 
 1. Triage the failure log by severity against cost to fix, and commit to a cut line
 2. Fix what is above the line, re-run the exact tests that caught each one, and push to **GitHub**
-3. Set up a **Claude Routine** that re-runs the regression suite on a schedule, so the prototype keeps being tested after you stop looking
+3. Set up **unlimited Claude Routines** — schedule as many recurring checks as the prototype needs, so it keeps being tested after you stop looking
 
 📊 [Slides](#) · 📎 [Materials](#) · ✏️ Homework `TBD`
 
