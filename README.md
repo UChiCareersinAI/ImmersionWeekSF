@@ -4,7 +4,7 @@
 
 **From vague ideas to battle-tested prototypes in 3 days**
 
-`Dates TBD` · San Francisco · Victor Palacios · **9:00 AM – 12:00 PM PT**
+**Sep 22–24, 2026** · San Francisco · Victor Palacios · **9:00 AM – 12:00 PM PT**
 
 </div>
 
@@ -12,7 +12,7 @@
 
 ## 📅 Sessions
 
-| Time (PT) | 🧭 **Day 1 · The Blueprint**<br><sub>`Date TBD` · 💬 conversational</sub> | 🔨 **Day 2 · The Build**<br><sub>`Date TBD` · 🔧 constructive</sub> | ⚔️ **Day 3 · The Battle Test**<br><sub>`Date TBD` · 🚀 autonomous</sub> |
+| Time (PT) | 🧭 **Day 1 · The Blueprint**<br><sub>Tue Sep 22 · 💬 conversational</sub> | 🔨 **Day 2 · The Build**<br><sub>Wed Sep 23 · 🔧 constructive</sub> | ⚔️ **Day 3 · The Battle Test**<br><sub>Thu Sep 24 · 🚀 autonomous</sub> |
 |:--|:--|:--|:--|
 | `9:00–9:20` | 👋 Course & instructor intro | 📝 [Review](#) · Qualtrics | 📝 [Review](#) · Qualtrics |
 | `9:20–9:55` | [**1.1** Precise Problem Statement](#s11)<br><sub>Prompt Engineering · Projects</sub> | [**2.1** Choosing the Stack](#s21)<br><sub>RAG · Projects</sub> | [**3.1** Designing the Attack](#s31)<br><sub>Agents</sub> |
