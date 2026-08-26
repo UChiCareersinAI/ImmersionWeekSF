@@ -15,7 +15,7 @@
 | Time (PT) | 🧭 **Day 1 · The Blueprint**<br><sub>Tue Sep 22 · 💬 conversational</sub> | 🔨 **Day 2 · The Build**<br><sub>Wed Sep 23 · 🔧 constructive</sub> | ⚔️ **Day 3 · The Battle Test**<br><sub>Thu Sep 24 · 🚀 autonomous</sub> |
 |:--|:--|:--|:--|
 | `9:00–9:20` | 👋 Course & instructor intro | 📝 [Review](#) · Qualtrics | 📝 [Review](#) · Qualtrics |
-| `9:20–9:55` | [**1.1** Precise Problem Statement](https://docs.google.com/presentation/d/19F_dyS1gyARTKDC4A7VhXfAqa37Ww3J-jo4HBQzW1LM/edit)<br><sub>Prompt Engineering · Projects</sub> | [**2.1** Choosing the Stack](https://docs.google.com/presentation/d/1BhU0KXCwd-4_aiJi6UIg--O-vKpCmtlLYq7qtKU9KWA/edit)<br><sub>RAG · Projects</sub> | **3.1** Designing the Attack<br><sub>Agents</sub> |
+| `9:20–9:55` | [**1.1** Precise Problem Statement](https://docs.google.com/presentation/d/19F_dyS1gyARTKDC4A7VhXfAqa37Ww3J-jo4HBQzW1LM/edit)<br><sub>Prompt Engineering · Projects</sub> | [**2.1** Choosing the Stack](https://docs.google.com/presentation/d/1BhU0KXCwd-4_aiJi6UIg--O-vKpCmtlLYq7qtKU9KWA/edit)<br><sub>RAG · Projects</sub> | [**3.1** Designing the Attack](https://docs.google.com/presentation/d/1rwB-bS8uV6_HHuY_HsynuqQaVd6JEBPUsnG_KQdu5Fk/edit)<br><sub>Agents</sub> |
 | `10:00–10:55` | [**1.2** Intro to GenAI](https://docs.google.com/presentation/d/19wvUcRZMfEE5SmdM-PeijmNdScwPlJ28qK2S6z9te_o/edit)<br><sub>Prompt Engineering</sub> | [**2.2** Building the Happy Path](https://docs.google.com/presentation/d/1aGiB7UICy0W50rKcHJCFI-4xMUA618xCd0X6SXtj6SM/edit)<br><sub>Claude Code · GitHub</sub> | **3.2** Peer Red-Team Round<br><sub>Agents · Nvidia API</sub> |
 | `11:00–11:50` | [**1.3** Mapping the Workflow](https://docs.google.com/presentation/d/1XAnYqdYMZUFAWrHt89fI3VXio4r9zw1oFZUXLiXNwnk/edit)<br><sub>Artifacts · Routines</sub><br><br>[**1.4** Dividing the Work](https://docs.google.com/presentation/d/1s2irX2aa0V_Leb1W5GQzD1XZWTZODmYq1ZY83nbSx1Q/edit)<br><sub>Cowork · GitHub</sub> | [**2.3** Making It Demoable](https://docs.google.com/presentation/d/1aInhHLjgBKjHpFNCbnnfp34uM3-z0Pi48sHBdV1mOFw/edit)<br><sub>Pages · Cloudflare</sub> | **3.3** Hardening & Handoff<br><sub>Unlimited Routines · GitHub</sub> |
 
@@ -123,7 +123,7 @@
 2. Learn what an **agent** actually is — a loop with tools and a goal — and when the four tests (complexity, value, viability, cost of error) say to build one
 3. Design an agent that probes a prototype on its own, and draw the line between **failure** and acceptable **degradation** before it runs
 
-📊 [Slides](#)
+📊 [Slides](https://docs.google.com/presentation/d/1rwB-bS8uV6_HHuY_HsynuqQaVd6JEBPUsnG_KQdu5Fk/edit)
 
 <a id="s32"></a>
 
