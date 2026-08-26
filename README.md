@@ -84,7 +84,7 @@
 2. Tell the difference between needing **RAG** and just needing context in the window — then pick the cheaper one that works
 3. Stand up the smallest retrieval layer that answers your prototype's questions, with a Claude Project as the baseline to beat
 
-📊 [Slides](#)
+📊 [Slides](https://docs.google.com/presentation/d/1BhU0KXCwd-4_aiJi6UIg--O-vKpCmtlLYq7qtKU9KWA/edit)
 
 <a id="s22"></a>
 
