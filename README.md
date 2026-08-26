@@ -16,8 +16,8 @@
 |:--|:--|:--|:--|
 | `9:00–9:20` | 👋 Course & instructor intro | 📝 [Review](#) · Qualtrics | 📝 [Review](#) · Qualtrics |
 | `9:20–9:55` | [**1.1** Precise Problem Statement](#s11)<br><sub>Prompt Engineering · Projects</sub> | [**2.1** Choosing the Stack](#s21)<br><sub>RAG · Projects</sub> | [**3.1** Designing the Attack](#s31)<br><sub>Agents</sub> |
-| `10:00–10:55` | [**1.2** Mapping the Workflow](#s12)<br><sub>Artifacts · Routines</sub> | [**2.2** Building the Happy Path](#s22)<br><sub>Claude Code · GitHub</sub> | [**3.2** Peer Red-Team Round](#s32)<br><sub>Agents · Nvidia API</sub> |
-| `11:00–11:50` | [**1.3** Dividing the Work](#s13)<br><sub>Cowork · GitHub</sub> | [**2.3** Making It Demoable](#s23)<br><sub>Pages · Cloudflare</sub> | [**3.3** Hardening & Handoff](#s33)<br><sub>Unlimited Routines · GitHub</sub> |
+| `10:00–10:55` | [**1.2** Intro to GenAI](#s12)<br><sub>Prompt Engineering</sub> | [**2.2** Building the Happy Path](#s22)<br><sub>Claude Code · GitHub</sub> | [**3.2** Peer Red-Team Round](#s32)<br><sub>Agents · Nvidia API</sub> |
+| `11:00–11:50` | [**1.3** Mapping the Workflow](#s13)<br><sub>Artifacts · Routines</sub><br><br>[**1.4** Dividing the Work](#s14)<br><sub>Cowork · GitHub</sub> | [**2.3** Making It Demoable](#s23)<br><sub>Pages · Cloudflare</sub> | [**3.3** Hardening & Handoff](#s33)<br><sub>Unlimited Routines · GitHub</sub> |
 
 ---
 
@@ -38,8 +38,19 @@
 
 <a id="s12"></a>
 
-### 1.2 · Mapping the Workflow to the Solution
-`10:00–10:55` · 🤖 `Claude Artifacts` `Claude Routines` `Prompt Engineering`
+### 1.2 · Intro to GenAI
+`10:00–10:55` · 🤖 `Prompt Engineering`
+
+1. Explain what a generative model actually does — predict the next token over a context window — and why that one fact accounts for most of its failure modes
+2. Tell a prompt, a context window, and a hallucination apart, and recognize each when it shows up in your own work this week
+3. Get a first useful result out of Claude, establishing the baseline every tool later in the week has to beat
+
+📊 [Slides](https://docs.google.com/presentation/d/19wvUcRZMfEE5SmdM-PeijmNdScwPlJ28qK2S6z9te_o/edit)
+
+<a id="s13"></a>
+
+### 1.3 · Mapping the Workflow to the Solution
+`11:00–11:50` · shares the block with 1.4 · 🤖 `Claude Artifacts` `Claude Routines` `Prompt Engineering`
 
 1. Decompose the problem into a stepwise workflow, from raw input to delivered output
 2. Turn that workflow into a **Claude Artifact** — a diagram the whole team can see, revise, and share by link
@@ -47,10 +58,10 @@
 
 📊 [Slides](#)
 
-<a id="s13"></a>
+<a id="s14"></a>
 
-### 1.3 · Dividing the Work Across the Team
-`11:00–11:50` · 🤖 `Claude Cowork` `GitHub`
+### 1.4 · Dividing the Work Across the Team
+`11:00–11:50` · shares the block with 1.3 · 🤖 `Claude Cowork` `GitHub`
 
 1. Inventory the team's actual skills and assign every workflow step a single owner
 2. Use **Claude Cowork** to run several workstreams in parallel without the team stepping on each other
@@ -143,8 +154,10 @@
 
 <br>
 
-**Session numbering** is `<day>.<hour>` — `2.3` is Day 2, the 11:00 hour. Goals
-are `1`, `2`, `3`, so `2.3` goal `1` is unambiguous to say out loud in class.
+**Session numbering** is `<day>.<n>`, counting in order through the day — `2.3`
+is Day 2's third session. Goals are `1`, `2`, `3`, so `2.3` goal `1` is
+unambiguous to say out loud in class. Day 1 runs four sessions because 1.3 and
+1.4 share the 11:00 block.
 
 **Links** point anywhere — Slides, Overleaf, Colab, Qualtrics, an external
 article. Anything showing `TBD` or a `#` link is still a placeholder.
