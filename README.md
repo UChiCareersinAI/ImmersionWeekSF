@@ -2,323 +2,158 @@
 
 # 🌉 Immersion Week SF
 
-### From a vague idea to a battle-tested prototype — in three days
+**From a vague idea to a battle-tested prototype — in three days**
 
-**3 Days · 9 Sessions · 27 Goals · 11 Tools**
-
-`Dates TBD` · San Francisco · Instructor: **Victor Palacios**
-
-**9:00 AM – 12:00 PM PT daily**
+`Dates TBD` · San Francisco · Victor Palacios · **9:00 AM – 12:00 PM PT**
 
 </div>
 
 ---
 
-## 🎯 The Arc
+## 📅 Sessions
 
-| Day | Title | What you walk out with |
-|:--|:--|:--|
-| **Day 1** | 🧭 **The Blueprint** | A precise problem statement, a mapped workflow, and a task board with owners |
-| **Day 2** | 🔨 **The Build** | A working happy-path prototype someone else can drive |
-| **Day 3** | ⚔️ **The Battle Test** | A prototype hardened against the edge cases your peers found |
-
----
-
-## 🤖 The Tool Ladder
-
-The AI tooling climbs with the days. Each layer assumes the one below it, so
-nothing arrives before you have a reason to want it.
-
-| Day | Layer | You are learning to… | Tools |
+| Time (PT) | 🧭 **Day 1 · The Blueprint**<br><sub>`Date TBD` · 💬 conversational</sub> | 🔨 **Day 2 · The Build**<br><sub>`Date TBD` · 🔧 constructive</sub> | ⚔️ **Day 3 · The Battle Test**<br><sub>`Date TBD` · 🚀 autonomous</sub> |
 |:--|:--|:--|:--|
-| **Day 1** | 💬 **Conversational** | talk to Claude well enough that it sharpens your thinking | Prompt Engineering · Claude Projects · Claude Artifacts · Claude Cowork · GitHub |
-| **Day 2** | 🔧 **Constructive** | build and ship a real thing with Claude in the loop | RAG · Claude Code · GitHub Pages · Cloudflare |
-| **Day 3** | 🚀 **Autonomous** | hand work to something that runs without you watching | Agents · Nvidia API (free LLMs) · Claude Routines |
+| `9:00–9:20` | 👋 Course & instructor intro | 📝 [Review](#) · Qualtrics | 📝 [Review](#) · Qualtrics |
+| `9:20–9:55` | [**1.1** Precise Problem Statement](#s11)<br><sub>Prompt Engineering · Projects</sub> | [**2.1** Choosing the Stack](#s21)<br><sub>RAG · Projects</sub> | [**3.1** Designing the Attack](#s31)<br><sub>Agents</sub> |
+| `10:00–10:55` | [**1.2** Mapping the Workflow](#s12)<br><sub>Artifacts</sub> | [**2.2** Building the Happy Path](#s22)<br><sub>Claude Code · GitHub</sub> | [**3.2** Peer Red-Team Round](#s32)<br><sub>Agents · Nvidia API</sub> |
+| `11:00–11:50` | [**1.3** Dividing the Work](#s13)<br><sub>Cowork · GitHub</sub> | [**2.3** Making It Demoable](#s23)<br><sub>Pages · Cloudflare</sub> | [**3.3** Hardening & Handoff](#s33)<br><sub>Routines · GitHub</sub> |
 
-<details>
-<summary><strong>Why this order</strong></summary>
-
-<br>
-
-The ladder follows the same escalation Anthropic recommends for building with
-Claude: **a single call, then a workflow you control, then an agent that
-controls itself.** Each rung is strictly more powerful and strictly harder to
-debug, so we only climb when the rung below stops being enough.
-
-Day 1 is one conversation at a time — no code, no deployment, nothing that can
-break while you sleep. Day 2 adds retrieval, a repo, and a public URL, so
-mistakes become visible to other people. Day 3 hands the loop to the machine,
-which is where the failure modes get genuinely interesting — and why it lands
-on the day whose whole theme is *finding out what breaks*.
-
-</details>
+<sub>☕ 5-minute breaks at 9:55 and 10:55 · 🏢 Prep for Company Visit 11:50–12:00 · Day 1 opens with the intro, not a review · tools climb easiest → hardest across the three days</sub>
 
 ---
 
-## ⏱️ Daily Rhythm
+## 🧭 Day 1 · The Blueprint
 
-**Every day runs the same shape.** Learn it once — it never changes.
-
-| Time (PT) | Block | Length |
-|:--|:--|--:|
-| **9:00 – 9:20** | 📝 **Review assignment** · Qualtrics<br>_Day 1 only:_ 👋 Intro to the course & instructor | 20 min |
-| **9:20 – 9:55** | 🎓 **Hour 1 lecture** | 35 min |
-| 9:55 – 10:00 | ☕ Break | 5 min |
-| **10:00 – 10:55** | 🎓 **Hour 2 lecture** | 55 min |
-| 10:55 – 11:00 | ☕ Break | 5 min |
-| **11:00 – 11:50** | 🎓 **Hour 3 lecture** | 50 min |
-| 11:50 – 12:00 | 🏢 Prep for Company Visit | 10 min |
-
-> [!IMPORTANT]
-> **One review per day, and only at 9:00** — not at the top of every hour.
-> **Day 1 has no review at all.** There is nothing to review yet, so it opens with a 20-minute intro to the course and instructor.
-> **The day ends at 11:50.** Hour 3 takes no break; the last 10 minutes are Prep for Company Visit.
-
-<details>
-<summary><strong>Where the 180 minutes go</strong></summary>
-
-<br>
-
-| | Minutes |
-|:--|--:|
-| 🎓 Lecture (35 + 55 + 50) | **140** |
-| 📝 Review assignment _(Day 1: intro)_ | 20 |
-| ☕ Breaks (2 × 5) | 10 |
-| 🏢 Prep for Company Visit | 10 |
-| **Total** | **180** |
-
-</details>
-
----
-
-## 📅 Schedule at a Glance
-
-All times Pacific. Click any session to jump to its goals and materials.
-
-| Lecture | 🧭 **Day 1 — The Blueprint** | 🔨 **Day 2 — The Build** | ⚔️ **Day 3 — The Battle Test** |
-|:--|:--|:--|:--|
-| **9:00 – 9:20**<br>_opening block_ | 👋 Intro to course & instructor | 📝 [Review — _Qualtrics TBD_](#) | 📝 [Review — _Qualtrics TBD_](#) |
-| **Hour 1**<br>`9:20–9:55` | [**1.1** — Precise Problem Statement](#s11) | [**2.1** — Choosing the Stack](#s21) | [**3.1** — Designing the Attack](#s31) |
-| **Hour 2**<br>`10:00–10:55` | [**1.2** — Mapping the Workflow](#s12) | [**2.2** — Building the Happy Path](#s22) | [**3.2** — Peer Red-Team Round](#s32) |
-| **Hour 3**<br>`11:00–11:50` | [**1.3** — Dividing the Work](#s13) | [**2.3** — Making It Demoable](#s23) | [**3.3** — Hardening & Handoff](#s33) |
-
----
-
-## 🧭 Day 1 — The Blueprint · `Date TBD`
-
-> **Identify and define a precise, achievable problem — then map the entire
-> workflow to reach the solution and divide it across the team's skillset.**
-
-💬 **Tool layer — Conversational:** `Prompt Engineering` `Claude Projects` `Claude Artifacts` `Claude Cowork` `GitHub`
-
-**👋 9:00 – 9:20 · Intro to the course and instructor** — no review on Day 1.
+> Identify and define a precise, achievable problem — then map the entire workflow to reach the solution and divide it across the team's skillset.
 
 <a id="s11"></a>
 
-### 🕘 Hour 1 · **1.1** — From Vague Idea to Precise Problem Statement
+### 1.1 · From Vague Idea to Precise Problem Statement
+`9:20–9:55` · 🤖 `Prompt Engineering` `Claude Projects`
 
-`🎓 Lecture 9:20–9:55` → `☕ Break 9:55–10:00`
+1. Tell a **problem** statement apart from a **solution** statement, and use prompt engineering to make Claude interrogate a vague ask until it is precise
+2. Apply a scoping test — measurable outcome, data actually available, achievable in three days — and make Claude argue the opposite case before you commit
+3. Stand up a **Claude Project** as the team's shared brain: instructions, uploaded context, one place everyone works from
 
-🤖 **Tools:** `Prompt Engineering` `Claude Projects`
-
-> **Goals**
-> 1. Tell a **problem** statement apart from a **solution** statement, and use **prompt engineering** to make Claude interrogate a vague ask until it is precise
-> 2. Apply a scoping test — measurable outcome, data actually available, achievable in three days — and make Claude argue the opposite case before you commit
-> 3. Stand up a **Claude Project** as the team's shared brain: project instructions, uploaded context, one place everyone works from
-
-📊 **Slides:** [_TBD_](#) &nbsp;·&nbsp; 📎 **Materials:** [_TBD_](#) &nbsp;·&nbsp; ✏️ **Homework:** _TBD_
+📊 [Slides](#) · 📎 [Materials](#) · ✏️ Homework `TBD`
 
 <a id="s12"></a>
 
-### 🕙 Hour 2 · **1.2** — Mapping the Workflow to the Solution
+### 1.2 · Mapping the Workflow to the Solution
+`10:00–10:55` · 🤖 `Claude Artifacts` `Prompt Engineering`
 
-`🎓 Lecture 10:00–10:55` → `☕ Break 10:55–11:00`
+1. Decompose the problem into a stepwise workflow, from raw input to delivered output
+2. Turn that workflow into a **Claude Artifact** — a diagram the whole team can see, revise, and share by link
+3. Name what each step needs (data, a tool, or a human decision), then have Claude generate the three ways the riskiest step most likely fails
 
-🤖 **Tools:** `Claude Artifacts` `Prompt Engineering`
-
-> **Goals**
-> 1. Decompose the problem into a stepwise workflow, from raw input to delivered output
-> 2. Turn that workflow into a **Claude Artifact** — a diagram the whole team can see, revise, and share by link
-> 3. Name what each step needs (data, a tool, or a human decision), then have Claude generate the three ways the riskiest step most likely fails
-
-📊 **Slides:** [_TBD_](#) &nbsp;·&nbsp; 📎 **Materials:** [_TBD_](#) &nbsp;·&nbsp; ✏️ **Homework:** _TBD_
+📊 [Slides](#) · 📎 [Materials](#) · ✏️ Homework `TBD`
 
 <a id="s13"></a>
 
-### 🕚 Hour 3 · **1.3** — Dividing the Work Across the Team
+### 1.3 · Dividing the Work Across the Team
+`11:00–11:50` · 🤖 `Claude Cowork` `GitHub`
 
-`🎓 Lecture 11:00–11:50` → `🏢 Prep for Company Visit 11:50–12:00`
+1. Inventory the team's actual skills and assign every workflow step a single owner
+2. Use **Claude Cowork** to run several workstreams in parallel without the team stepping on each other
+3. Put the task board in **GitHub** — a repo, issues with owners, and a definition of done for every Day 2 task
 
-🤖 **Tools:** `Claude Cowork` `GitHub`
-
-> **Goals**
-> 1. Inventory the team's actual skills and assign every workflow step a single owner
-> 2. Use **Claude Cowork** to run several workstreams in parallel without the team stepping on each other
-> 3. Put the task board in **GitHub** — a repo, issues with owners, and a definition of done for every Day 2 task
-
-📊 **Slides:** [_TBD_](#) &nbsp;·&nbsp; 📎 **Materials:** [_TBD_](#) &nbsp;·&nbsp; ✏️ **Homework:** _TBD_
+📊 [Slides](#) · 📎 [Materials](#) · ✏️ Homework `TBD`
 
 ---
 
-## 🔨 Day 2 — The Build · `Date TBD`
+## 🔨 Day 2 · The Build
 
-> **Construct a 'happy path' prototype using low-code tools.**
-
-🔧 **Tool layer — Constructive:** `RAG` `Claude Code` `GitHub Pages` `Cloudflare`
-
-**📝 9:00 – 9:20 · Review assignment** — [_Qualtrics link TBD_](#)
+> Construct a 'happy path' prototype using low-code tools.
 
 <a id="s21"></a>
 
-### 🕘 Hour 1 · **2.1** — Choosing Your Low-Code Stack
+### 2.1 · Choosing Your Low-Code Stack
+`9:20–9:55` · 🤖 `RAG` `Claude Projects`
 
-`🎓 Lecture 9:20–9:55` → `☕ Break 9:55–10:00`
+1. Match each step of yesterday's workflow map to a specific tool, and decide deliberately what to **stub** and what to **build**
+2. Tell the difference between needing **RAG** and just needing context in the window — then pick the cheaper one that works
+3. Stand up the smallest retrieval layer that answers your prototype's questions, with a Claude Project as the baseline to beat
 
-🤖 **Tools:** `RAG` `Claude Projects`
-
-> **Goals**
-> 1. Match each step of yesterday's workflow map to a specific tool, and decide deliberately what to **stub** and what to **build**
-> 2. Tell the difference between needing **RAG** and just needing context in the window — then pick the cheaper one that works
-> 3. Stand up the smallest retrieval layer that answers your prototype's questions, with a **Claude Project** as the baseline to beat
-
-📊 **Slides:** [_TBD_](#) &nbsp;·&nbsp; 📎 **Materials:** [_TBD_](#) &nbsp;·&nbsp; ✏️ **Homework:** _TBD_
+📊 [Slides](#) · 📎 [Materials](#) · ✏️ Homework `TBD`
 
 <a id="s22"></a>
 
-### 🕙 Hour 2 · **2.2** — Building the Happy Path
+### 2.2 · Building the Happy Path
+`10:00–10:55` · 🤖 `Claude Code` `GitHub`
 
-`🎓 Lecture 10:00–10:55` → `☕ Break 10:55–11:00`
+1. Drive **Claude Code** to implement each step against one known-good input — no edge cases, no error handling, not yet
+2. Connect the steps so a single input reaches a finished output with no manual intervention
+3. Commit to **GitHub** the moment it works, before adding anything else to it
 
-🤖 **Tools:** `Claude Code` `GitHub`
-
-> **Goals**
-> 1. Drive **Claude Code** to implement each step against one known-good input — no edge cases, no error handling, not yet
-> 2. Connect the steps so a single input reaches a finished output with no manual intervention
-> 3. Commit to **GitHub** the moment it works, before adding anything else to it
-
-📊 **Slides:** [_TBD_](#) &nbsp;·&nbsp; 📎 **Materials:** [_TBD_](#) &nbsp;·&nbsp; ✏️ **Homework:** _TBD_
+📊 [Slides](#) · 📎 [Materials](#) · ✏️ Homework `TBD`
 
 <a id="s23"></a>
 
-### 🕚 Hour 3 · **2.3** — Making It Demoable
+### 2.3 · Making It Demoable
+`11:00–11:50` · 🤖 `GitHub Pages` `Cloudflare` `Claude Artifacts`
 
-`🎓 Lecture 11:00–11:50` → `🏢 Prep for Company Visit 11:50–12:00`
+1. Wrap the prototype in a front end a stranger can drive — a **Claude Artifact**, or a page you write and host
+2. Ship it to a public URL with **GitHub Pages** or **Cloudflare**, so your demo does not depend on your laptop staying open
+3. Write a three-minute demo script, and document what is stubbed, faked, or known-broken — this is Day 3's attack surface
 
-🤖 **Tools:** `GitHub Pages` `Cloudflare` `Claude Artifacts`
-
-> **Goals**
-> 1. Wrap the prototype in a front end a stranger can drive — a **Claude Artifact**, or a page you write and host
-> 2. Ship it to a public URL with **GitHub Pages** or **Cloudflare**, so your demo does not depend on your laptop staying open
-> 3. Write a three-minute demo script, and document what is stubbed, faked, or known-broken — this is Day 3's attack surface
-
-📊 **Slides:** [_TBD_](#) &nbsp;·&nbsp; 📎 **Materials:** [_TBD_](#) &nbsp;·&nbsp; ✏️ **Homework:** _TBD_
+📊 [Slides](#) · 📎 [Materials](#) · ✏️ Homework `TBD`
 
 ---
 
-## ⚔️ Day 3 — The Battle Test · `Date TBD`
+## ⚔️ Day 3 · The Battle Test
 
-> **Rigorously peer-test prototypes to identify and harden against edge cases.**
-
-🚀 **Tool layer — Autonomous:** `Agents` `Nvidia API (free LLMs)` `Claude Routines`
-
-**📝 9:00 – 9:20 · Review assignment** — [_Qualtrics link TBD_](#)
+> Rigorously peer-test prototypes to identify and harden against edge cases.
 
 <a id="s31"></a>
 
-### 🕘 Hour 1 · **3.1** — Designing the Attack
+### 3.1 · Designing the Attack
+`9:20–9:55` · 🤖 `Agents` `Prompt Engineering`
 
-`🎓 Lecture 9:20–9:55` → `☕ Break 9:55–10:00`
+1. Build an edge-case inventory across the standard axes: empty, malformed, adversarial, out-of-scope, and at scale
+2. Learn what an **agent** actually is — a loop with tools and a goal — and when the four tests (complexity, value, viability, cost of error) say to build one
+3. Design an agent that probes a prototype on its own, and draw the line between **failure** and acceptable **degradation** before it runs
 
-🤖 **Tools:** `Agents` `Prompt Engineering`
-
-> **Goals**
-> 1. Build an edge-case inventory across the standard axes: empty, malformed, adversarial, out-of-scope, and at scale
-> 2. Learn what an **agent** actually is — a loop with tools and a goal — and when the four tests (complexity, value, viability, cost of error) say to build one
-> 3. Design an agent that probes a prototype on its own, and draw the line between **failure** and acceptable **degradation** before it runs
-
-📊 **Slides:** [_TBD_](#) &nbsp;·&nbsp; 📎 **Materials:** [_TBD_](#) &nbsp;·&nbsp; ✏️ **Homework:** _TBD_
+📊 [Slides](#) · 📎 [Materials](#) · ✏️ Homework `TBD`
 
 <a id="s32"></a>
 
-### 🕙 Hour 2 · **3.2** — Peer Red-Team Round
+### 3.2 · Peer Red-Team Round
+`10:00–10:55` · 🤖 `Agents` `Nvidia API`
 
-`🎓 Lecture 10:00–10:55` → `☕ Break 10:55–11:00`
+1. Break another team's prototype — run their test script by hand, then turn your testing agent loose on it
+2. Use **Nvidia's free LLM API** to generate adversarial inputs in bulk, so volume costs you nothing
+3. Log every failure with reproduction steps and a severity — and receive your own log without defending it
 
-🤖 **Tools:** `Agents` `Nvidia API`
-
-> **Goals**
-> 1. Break another team's prototype — run their test script by hand, then turn your **testing agent** loose on it
-> 2. Use **Nvidia's free LLM API** to generate adversarial inputs in bulk, so volume costs you nothing
-> 3. Log every failure with reproduction steps and a severity — and receive your own log without defending it
-
-📊 **Slides:** [_TBD_](#) &nbsp;·&nbsp; 📎 **Materials:** [_TBD_](#) &nbsp;·&nbsp; ✏️ **Homework:** _TBD_
+📊 [Slides](#) · 📎 [Materials](#) · ✏️ Homework `TBD`
 
 <a id="s33"></a>
 
-### 🕚 Hour 3 · **3.3** — Hardening & Handoff
+### 3.3 · Hardening & Handoff
+`11:00–11:50` · 🤖 `Claude Routines` `GitHub`
 
-`🎓 Lecture 11:00–11:50` → `🏢 Prep for Company Visit 11:50–12:00`
+1. Triage the failure log by severity against cost to fix, and commit to a cut line
+2. Fix what is above the line, re-run the exact tests that caught each one, and push to **GitHub**
+3. Set up a **Claude Routine** that re-runs the regression suite on a schedule, so the prototype keeps being tested after you stop looking
 
-🤖 **Tools:** `Claude Routines` `GitHub`
-
-> **Goals**
-> 1. Triage the failure log by severity against cost to fix, and commit to a cut line
-> 2. Fix what is above the line, re-run the exact tests that caught each one, and push to **GitHub**
-> 3. Set up a **Claude Routine** that re-runs the regression suite on a schedule, so the prototype keeps being tested after you stop looking
-
-📊 **Slides:** [_TBD_](#) &nbsp;·&nbsp; 📎 **Materials:** [_TBD_](#) &nbsp;·&nbsp; ✏️ **Homework:** _TBD_
-
----
-
-## 📚 Materials Index
-
-### Opening block · 9:00 – 9:20
-
-| Day | Block | Link |
-|:--|:--|:--|
-| **Day 1** | 👋 Intro to the course and instructor | _no review_ |
-| **Day 2** | 📝 Review assignment | [_Qualtrics TBD_](#) |
-| **Day 3** | 📝 Review assignment | [_Qualtrics TBD_](#) |
-
-### Sessions
-
-| Session | Lecture | Topic | Tools | Slides | Materials | Homework |
-|:--|:--|:--|:--|:--|:--|:--|
-| [1.1](#s11) | `9:20–9:55` | Precise Problem Statement | Prompt Engineering · Projects | [_TBD_](#) | [_TBD_](#) | _TBD_ |
-| [1.2](#s12) | `10:00–10:55` | Mapping the Workflow | Artifacts | [_TBD_](#) | [_TBD_](#) | _TBD_ |
-| [1.3](#s13) | `11:00–11:50` | Dividing the Work | Cowork · GitHub | [_TBD_](#) | [_TBD_](#) | _TBD_ |
-| [2.1](#s21) | `9:20–9:55` | Choosing the Stack | RAG · Projects | [_TBD_](#) | [_TBD_](#) | _TBD_ |
-| [2.2](#s22) | `10:00–10:55` | Building the Happy Path | Claude Code · GitHub | [_TBD_](#) | [_TBD_](#) | _TBD_ |
-| [2.3](#s23) | `11:00–11:50` | Making It Demoable | Pages · Cloudflare | [_TBD_](#) | [_TBD_](#) | _TBD_ |
-| [3.1](#s31) | `9:20–9:55` | Designing the Attack | Agents | [_TBD_](#) | [_TBD_](#) | _TBD_ |
-| [3.2](#s32) | `10:00–10:55` | Peer Red-Team Round | Agents · Nvidia API | [_TBD_](#) | [_TBD_](#) | _TBD_ |
-| [3.3](#s33) | `11:00–11:50` | Hardening & Handoff | Routines · GitHub | [_TBD_](#) | [_TBD_](#) | _TBD_ |
-
-**2 Qualtrics review links** to come — one for Day 2, one for Day 3.
+📊 [Slides](#) · 📎 [Materials](#) · ✏️ Homework `TBD`
 
 ---
 
 <details>
-<summary><strong>🛠️ How this repo is organized</strong></summary>
+<summary><strong>Notes</strong></summary>
 
 <br>
 
-```
-.
-├── README.md            ← you are here (the schedule everyone reads)
-└── materials/           ← handouts, datasets, notebooks hosted in-repo
-```
+**Session numbering** is `<day>.<hour>` — `2.3` is Day 2, the 11:00 hour. Goals
+are `1`, `2`, `3`, so `2.3` goal `1` is unambiguous to say out loud in class.
 
-**This README is the schedule.** It renders on the repo homepage with no setup,
-works in the GitHub mobile app, and can be edited straight in the browser.
+**Links** point anywhere — Slides, Overleaf, Colab, Qualtrics, an external
+article, or a file in [`materials/`](materials/). Anything showing `TBD` or a
+`#` link is still a placeholder.
 
-**Session numbering** is `<day>.<hour>` — so `2.3` is Day 2, the 11:00 hour.
-Goals inside a session are `1`, `2`, `3`, making `2.3` goal `1` unambiguous to
-reference out loud in class.
-
-**Links** can point anywhere — Google Slides, Overleaf, Colab, Qualtrics, a PDF
-in `materials/`, an external article. Anything currently showing `TBD` is a
-placeholder waiting on content.
+**The 180 minutes:** 140 lecture (35 + 55 + 50) · 20 review · 10 breaks · 10
+company-visit prep.
 
 </details>
 
