@@ -34,7 +34,7 @@
 2. Apply a scoping test — measurable outcome, data actually available, achievable in three days — and make Claude argue the opposite case before you commit
 3. Stand up a **Claude Project** as the team's shared brain: instructions, uploaded context, one place everyone works from
 
-📊 [Slides](#) · 📎 [Materials](#) · ✏️ Homework `TBD`
+📊 [Slides](#)
 
 <a id="s12"></a>
 
@@ -45,7 +45,7 @@
 2. Turn that workflow into a **Claude Artifact** — a diagram the whole team can see, revise, and share by link
 3. Name what each step needs — data, a tool, a **Claude Routine** on a schedule, or a human decision — then have Claude generate the three ways the riskiest step most likely fails
 
-📊 [Slides](#) · 📎 [Materials](#) · ✏️ Homework `TBD`
+📊 [Slides](#)
 
 <a id="s13"></a>
 
@@ -56,7 +56,7 @@
 2. Use **Claude Cowork** to run several workstreams in parallel without the team stepping on each other
 3. Put the task board in **GitHub** — a repo, issues with owners, and a definition of done for every Day 2 task
 
-📊 [Slides](#) · 📎 [Materials](#) · ✏️ Homework `TBD`
+📊 [Slides](#)
 
 ---
 
@@ -73,7 +73,7 @@
 2. Tell the difference between needing **RAG** and just needing context in the window — then pick the cheaper one that works
 3. Stand up the smallest retrieval layer that answers your prototype's questions, with a Claude Project as the baseline to beat
 
-📊 [Slides](#) · 📎 [Materials](#) · ✏️ Homework `TBD`
+📊 [Slides](#)
 
 <a id="s22"></a>
 
@@ -84,7 +84,7 @@
 2. Connect the steps so a single input reaches a finished output with no manual intervention
 3. Commit to **GitHub** the moment it works, before adding anything else to it
 
-📊 [Slides](#) · 📎 [Materials](#) · ✏️ Homework `TBD`
+📊 [Slides](#)
 
 <a id="s23"></a>
 
@@ -95,7 +95,7 @@
 2. Ship it to a public URL with **GitHub Pages** or **Cloudflare**, so your demo does not depend on your laptop staying open
 3. Write a three-minute demo script, and document what is stubbed, faked, or known-broken — this is Day 3's attack surface
 
-📊 [Slides](#) · 📎 [Materials](#) · ✏️ Homework `TBD`
+📊 [Slides](#)
 
 ---
 
@@ -112,7 +112,7 @@
 2. Learn what an **agent** actually is — a loop with tools and a goal — and when the four tests (complexity, value, viability, cost of error) say to build one
 3. Design an agent that probes a prototype on its own, and draw the line between **failure** and acceptable **degradation** before it runs
 
-📊 [Slides](#) · 📎 [Materials](#) · ✏️ Homework `TBD`
+📊 [Slides](#)
 
 <a id="s32"></a>
 
@@ -123,7 +123,7 @@
 2. Use **Nvidia's free LLM API** to generate adversarial inputs in bulk, so volume costs you nothing
 3. Log every failure with reproduction steps and a severity — and receive your own log without defending it
 
-📊 [Slides](#) · 📎 [Materials](#) · ✏️ Homework `TBD`
+📊 [Slides](#)
 
 <a id="s33"></a>
 
@@ -134,7 +134,7 @@
 2. Fix what is above the line, re-run the exact tests that caught each one, and push to **GitHub**
 3. Set up **unlimited Claude Routines** — schedule as many recurring checks as the prototype needs, so it keeps being tested after you stop looking
 
-📊 [Slides](#) · 📎 [Materials](#) · ✏️ Homework `TBD`
+📊 [Slides](#)
 
 ---
 
@@ -147,8 +147,7 @@
 are `1`, `2`, `3`, so `2.3` goal `1` is unambiguous to say out loud in class.
 
 **Links** point anywhere — Slides, Overleaf, Colab, Qualtrics, an external
-article, or a file in [`materials/`](materials/). Anything showing `TBD` or a
-`#` link is still a placeholder.
+article. Anything showing `TBD` or a `#` link is still a placeholder.
 
 **The 180 minutes:** 140 lecture (35 + 55 + 50) · 20 review · 10 breaks · 10
 company-visit prep.
