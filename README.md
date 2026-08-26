@@ -2,7 +2,7 @@
 
 # 🌉 Immersion Week SF
 
-**From a vague idea to a battle-tested prototype — in three days**
+**From vague ideas to battle-tested prototypes in 3 days**
 
 `Dates TBD` · San Francisco · Victor Palacios · **9:00 AM – 12:00 PM PT**
 
