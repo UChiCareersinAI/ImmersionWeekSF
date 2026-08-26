@@ -67,7 +67,7 @@
 2. Use **Claude Cowork** to run several workstreams in parallel without the team stepping on each other
 3. Put the task board in **GitHub** — a repo, issues with owners, and a definition of done for every Day 2 task
 
-📊 [Slides](#)
+📊 [Slides](https://docs.google.com/presentation/d/1s2irX2aa0V_Leb1W5GQzD1XZWTZODmYq1ZY83nbSx1Q/edit)
 
 ---
 
