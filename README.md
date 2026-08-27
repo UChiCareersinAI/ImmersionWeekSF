@@ -149,24 +149,6 @@
 
 ---
 
-<details>
-<summary><strong>Notes</strong></summary>
-
-<br>
-
-**Session numbering** is `<day>.<n>`, counting in order through the day — `2.3`
-is Day 2's third session. Goals are `1`, `2`, `3`, so `2.3` goal `1` is
-unambiguous to say out loud in class. Day 1 runs four sessions because 1.3 and
-1.4 share the 11:00 block.
-
-**Links** point anywhere — Slides, Overleaf, Colab, Qualtrics, an external
-article. Anything showing `TBD` or a `#` link is still a placeholder.
-
-**The 180 minutes:** 140 lecture (35 + 55 + 50) · 20 review · 10 breaks · 10
-company-visit prep.
-
-</details>
-
 <div align="center">
 
 <sub>Immersion Week SF · University of Chicago Careers in AI</sub>
