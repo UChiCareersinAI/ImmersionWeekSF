@@ -17,7 +17,7 @@
 | `9:00–9:20` | 👋 Course & instructor intro | 📝 [Review](#) · Qualtrics | 📝 [Review](#) · Qualtrics |
 | `9:20–9:55` | [**1.1** Precise Problem Statement](https://docs.google.com/presentation/d/19F_dyS1gyARTKDC4A7VhXfAqa37Ww3J-jo4HBQzW1LM/edit)<br><sub>Prompt Engineering · Projects</sub> | [**2.1** Choosing the Stack](https://docs.google.com/presentation/d/1BhU0KXCwd-4_aiJi6UIg--O-vKpCmtlLYq7qtKU9KWA/edit)<br><sub>RAG · Projects</sub> | [**3.1** Designing the Attack](https://docs.google.com/presentation/d/1rwB-bS8uV6_HHuY_HsynuqQaVd6JEBPUsnG_KQdu5Fk/edit)<br><sub>Agents</sub> |
 | `10:00–10:55` | [**1.2** Mapping the Workflow](https://docs.google.com/presentation/d/1XAnYqdYMZUFAWrHt89fI3VXio4r9zw1oFZUXLiXNwnk/edit)<br><sub>Artifacts · Routines</sub><br><br>[**1.3** Dividing the Work](https://docs.google.com/presentation/d/1s2irX2aa0V_Leb1W5GQzD1XZWTZODmYq1ZY83nbSx1Q/edit)<br><sub>Cowork · GitHub</sub> | 🔎 **Project Check**<br><sub>10:00–10:10</sub><br><br>[**2.2** Building the Happy Path](https://docs.google.com/presentation/d/1aGiB7UICy0W50rKcHJCFI-4xMUA618xCd0X6SXtj6SM/edit)<br><sub>Claude Code · GitHub</sub><br><br>[**2.3** Making It Demoable](https://docs.google.com/presentation/d/1aInhHLjgBKjHpFNCbnnfp34uM3-z0Pi48sHBdV1mOFw/edit)<br><sub>Pages · Cloudflare</sub> | 🔎 **Project Check**<br><sub>10:00–10:10</sub><br><br>[**3.2** Peer Red-Team Round](https://docs.google.com/presentation/d/1B6ZqXQ1xjsIvMhuyr7J1o6hP7w44bLVgwxSo7-s8YwM/edit)<br><sub>Agents · Nvidia API</sub><br><br>[**3.3** Hardening & Handoff](https://docs.google.com/presentation/d/1UfGGDTFBnVDigmXIXJD9nRgmnU8-Y37HaFWd3JMQUwA/edit)<br><sub>Unlimited Routines · GitHub</sub> |
-| `11:00–11:50` | [**1.4** Intro to GenAI](https://docs.google.com/presentation/d/19wvUcRZMfEE5SmdM-PeijmNdScwPlJ28qK2S6z9te_o/edit)<br><sub>11:00–11:20 · Prompt Engineering</sub><br><br>👥 **Team work**<br><sub>11:20–11:50</sub> | [**2.4** Advanced GenAI](https://docs.google.com/presentation/d/1prwOHOnUWwCDr5wNL_hinIvqRbbQMv50v4qUZgOGVKg/edit)<br><sub>11:00–11:20 · RAG · Fine-tuning</sub><br><br>👥 **Team work**<br><sub>11:20–11:50</sub> | 🎤 **Team demos** |
+| `11:00–11:50` | [**1.4** Intro to GenAI](https://docs.google.com/presentation/d/19wvUcRZMfEE5SmdM-PeijmNdScwPlJ28qK2S6z9te_o/edit)<br><sub>11:00–11:20 · Prompt Engineering</sub><br><br>👥 **Team work**<br><sub>11:20–11:50</sub> | [**2.4** Advanced GenAI](https://docs.google.com/presentation/d/1prwOHOnUWwCDr5wNL_hinIvqRbbQMv50v4qUZgOGVKg/edit)<br><sub>11:00–11:20 · RAG · Fine-tuning · Agents</sub><br><br>👥 **Team work**<br><sub>11:20–11:50</sub> | 🎤 **Team demos** |
 
 ---
 
@@ -111,7 +111,7 @@
 <a id="s24"></a>
 
 ### 2.4 · Advanced GenAI
-`11:00–11:20` · followed by 30 min of team work · 🤖 `RAG` `Fine-tuning`
+`11:00–11:20` · followed by 30 min of team work · 🤖 `RAG` `Fine-tuning` `Agents`
 
 1. Tell when **RAG** is the right answer and when **fine-tuning** is — retrieval for knowledge that keeps changing, fine-tuning for behavior that has to stay consistent
 2. Fix a retrieval layer that returns the wrong chunks: chunk size, what you embed, and what to do when the answer spans several documents
