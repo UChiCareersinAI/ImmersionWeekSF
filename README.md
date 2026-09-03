@@ -16,8 +16,8 @@
 |:--|:--|:--|:--|
 | `9:00–9:20` | 👋 Course & instructor intro | 📝 [Review](#) · Qualtrics | 📝 [Review](#) · Qualtrics |
 | `9:20–9:55` | [**1.1** Precise Problem Statement](https://docs.google.com/presentation/d/19F_dyS1gyARTKDC4A7VhXfAqa37Ww3J-jo4HBQzW1LM/edit)<br><sub>Prompt Engineering · Projects</sub> | [**2.1** Choosing the Stack](https://docs.google.com/presentation/d/1BhU0KXCwd-4_aiJi6UIg--O-vKpCmtlLYq7qtKU9KWA/edit)<br><sub>RAG · Projects</sub> | [**3.1** Designing the Attack](https://docs.google.com/presentation/d/1rwB-bS8uV6_HHuY_HsynuqQaVd6JEBPUsnG_KQdu5Fk/edit)<br><sub>Agents</sub> |
-| `10:00–10:55` | [**1.2** Intro to GenAI](https://docs.google.com/presentation/d/19wvUcRZMfEE5SmdM-PeijmNdScwPlJ28qK2S6z9te_o/edit)<br><sub>Prompt Engineering</sub> | 🔎 **Project Check**<br><sub>10:00–10:10</sub><br><br>[**2.2** Building the Happy Path](https://docs.google.com/presentation/d/1aGiB7UICy0W50rKcHJCFI-4xMUA618xCd0X6SXtj6SM/edit)<br><sub>Claude Code · GitHub</sub> | 🔎 **Project Check**<br><sub>10:00–10:10</sub><br><br>[**3.2** Peer Red-Team Round](https://docs.google.com/presentation/d/1B6ZqXQ1xjsIvMhuyr7J1o6hP7w44bLVgwxSo7-s8YwM/edit)<br><sub>Agents · Nvidia API</sub><br><br>[**3.3** Hardening & Handoff](https://docs.google.com/presentation/d/1UfGGDTFBnVDigmXIXJD9nRgmnU8-Y37HaFWd3JMQUwA/edit)<br><sub>Unlimited Routines · GitHub</sub> |
-| `11:00–11:50` | [**1.3** Mapping the Workflow](https://docs.google.com/presentation/d/1XAnYqdYMZUFAWrHt89fI3VXio4r9zw1oFZUXLiXNwnk/edit)<br><sub>Artifacts · Routines</sub><br><br>[**1.4** Dividing the Work](https://docs.google.com/presentation/d/1s2irX2aa0V_Leb1W5GQzD1XZWTZODmYq1ZY83nbSx1Q/edit)<br><sub>Cowork · GitHub</sub> | [**2.3** Making It Demoable](https://docs.google.com/presentation/d/1aInhHLjgBKjHpFNCbnnfp34uM3-z0Pi48sHBdV1mOFw/edit)<br><sub>Pages · Cloudflare</sub> | 🎤 **Team demos** |
+| `10:00–10:55` | [**1.2** Mapping the Workflow](https://docs.google.com/presentation/d/1XAnYqdYMZUFAWrHt89fI3VXio4r9zw1oFZUXLiXNwnk/edit)<br><sub>Artifacts · Routines</sub><br><br>[**1.3** Dividing the Work](https://docs.google.com/presentation/d/1s2irX2aa0V_Leb1W5GQzD1XZWTZODmYq1ZY83nbSx1Q/edit)<br><sub>Cowork · GitHub</sub> | 🔎 **Project Check**<br><sub>10:00–10:10</sub><br><br>[**2.2** Building the Happy Path](https://docs.google.com/presentation/d/1aGiB7UICy0W50rKcHJCFI-4xMUA618xCd0X6SXtj6SM/edit)<br><sub>Claude Code · GitHub</sub><br><br>[**2.3** Making It Demoable](https://docs.google.com/presentation/d/1aInhHLjgBKjHpFNCbnnfp34uM3-z0Pi48sHBdV1mOFw/edit)<br><sub>Pages · Cloudflare</sub> | 🔎 **Project Check**<br><sub>10:00–10:10</sub><br><br>[**3.2** Peer Red-Team Round](https://docs.google.com/presentation/d/1B6ZqXQ1xjsIvMhuyr7J1o6hP7w44bLVgwxSo7-s8YwM/edit)<br><sub>Agents · Nvidia API</sub><br><br>[**3.3** Hardening & Handoff](https://docs.google.com/presentation/d/1UfGGDTFBnVDigmXIXJD9nRgmnU8-Y37HaFWd3JMQUwA/edit)<br><sub>Unlimited Routines · GitHub</sub> |
+| `11:00–11:50` | [**1.4** Intro to GenAI](https://docs.google.com/presentation/d/19wvUcRZMfEE5SmdM-PeijmNdScwPlJ28qK2S6z9te_o/edit)<br><sub>11:00–11:20 · Prompt Engineering</sub><br><br>👥 **Team work**<br><sub>11:20–11:50</sub> | **2.4** Advanced GenAI<br><sub>11:00–11:20 · Prompt Engineering · RAG</sub><br><br>👥 **Team work**<br><sub>11:20–11:50</sub> | 🎤 **Team demos** |
 
 ---
 
@@ -38,19 +38,8 @@
 
 <a id="s12"></a>
 
-### 1.2 · Intro to GenAI
-`10:00–10:55` · 🤖 `Prompt Engineering`
-
-1. Explain what a generative model actually does — predict the next token over a context window — and why that one fact accounts for most of its failure modes
-2. Tell a prompt, a context window, and a hallucination apart, and recognize each when it shows up in your own work this week
-3. Get a first useful result out of Claude, establishing the baseline every tool later in the week has to beat
-
-📊 [Slides](https://docs.google.com/presentation/d/19wvUcRZMfEE5SmdM-PeijmNdScwPlJ28qK2S6z9te_o/edit)
-
-<a id="s13"></a>
-
-### 1.3 · Mapping the Workflow to the Solution
-`11:00–11:50` · shares the block with 1.4 · 🤖 `Claude Artifacts` `Claude Routines` `Prompt Engineering`
+### 1.2 · Mapping the Workflow to the Solution
+`10:00–10:55` · shares the block with 1.3 · 🤖 `Claude Artifacts` `Claude Routines` `Prompt Engineering`
 
 1. Decompose the problem into a stepwise workflow, from raw input to delivered output
 2. Turn that workflow into a **Claude Artifact** — a diagram the whole team can see, revise, and share by link
@@ -58,16 +47,27 @@
 
 📊 [Slides](https://docs.google.com/presentation/d/1XAnYqdYMZUFAWrHt89fI3VXio4r9zw1oFZUXLiXNwnk/edit)
 
-<a id="s14"></a>
+<a id="s13"></a>
 
-### 1.4 · Dividing the Work Across the Team
-`11:00–11:50` · shares the block with 1.3 · 🤖 `Claude Cowork` `GitHub`
+### 1.3 · Dividing the Work Across the Team
+`10:00–10:55` · shares the block with 1.2 · 🤖 `Claude Cowork` `GitHub`
 
 1. Inventory the team's actual skills and assign every workflow step a single owner
 2. Use **Claude Cowork** to run several workstreams in parallel without the team stepping on each other
 3. Put the task board in **GitHub** — a repo, issues with owners, and a definition of done for every Day 2 task
 
 📊 [Slides](https://docs.google.com/presentation/d/1s2irX2aa0V_Leb1W5GQzD1XZWTZODmYq1ZY83nbSx1Q/edit)
+
+<a id="s14"></a>
+
+### 1.4 · Intro to GenAI
+`11:00–11:20` · followed by 30 min of team work · 🤖 `Prompt Engineering`
+
+1. Explain what a generative model actually does — predict the next token over a context window — and why that one fact accounts for most of its failure modes
+2. Tell a prompt, a context window, and a hallucination apart, and recognize each when it shows up in your own work this week
+3. Get a first useful result out of Claude, establishing the baseline every tool later in the week has to beat
+
+📊 [Slides](https://docs.google.com/presentation/d/19wvUcRZMfEE5SmdM-PeijmNdScwPlJ28qK2S6z9te_o/edit)
 
 ---
 
@@ -89,7 +89,7 @@
 <a id="s22"></a>
 
 ### 2.2 · Building the Happy Path
-`10:10–10:55` · 🤖 `Claude Code` `GitHub`
+`10:10–10:55` · shares the block with 2.3 · 🤖 `Claude Code` `GitHub`
 
 1. Drive **Claude Code** to implement each step against one known-good input — no edge cases, no error handling, not yet
 2. Connect the steps so a single input reaches a finished output with no manual intervention
@@ -100,13 +100,24 @@
 <a id="s23"></a>
 
 ### 2.3 · Making It Demoable
-`11:00–11:50` · 🤖 `GitHub Pages` `Cloudflare` `Claude Artifacts`
+`10:10–10:55` · shares the block with 2.2 · 🤖 `GitHub Pages` `Cloudflare` `Claude Artifacts`
 
 1. Wrap the prototype in a front end a stranger can drive — a **Claude Artifact**, or a page you write and host
 2. Ship it to a public URL with **GitHub Pages** or **Cloudflare**, so your demo does not depend on your laptop staying open
 3. Write a three-minute demo script, and document what is stubbed, faked, or known-broken — this is Day 3's attack surface
 
 📊 [Slides](https://docs.google.com/presentation/d/1aInhHLjgBKjHpFNCbnnfp34uM3-z0Pi48sHBdV1mOFw/edit)
+
+<a id="s24"></a>
+
+### 2.4 · Advanced GenAI
+`11:00–11:20` · followed by 30 min of team work · 🤖 `Prompt Engineering` `RAG`
+
+1. Push past basic prompting into structured outputs, few-shot examples, and success criteria the model can check its own work against
+2. Chain calls so one model's output becomes the next one's input, and know when a chain beats a single longer prompt
+3. Diagnose where your prototype's quality is actually limited — the prompt, the retrieval, or the model — and fix that one rather than guessing
+
+📊 [Slides](#)
 
 ---
 
