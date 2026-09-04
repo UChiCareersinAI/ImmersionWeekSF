@@ -17,9 +17,9 @@
 | **9:00**<br><sub>20 min</sub> | 👋 [Course &amp; instructor intro](https://docs.google.com/presentation/d/1USdZNSgxWCCTmUhBCkM3ACzpbJMm5JSANJSRRlpRYbs/edit)<br><sub>no review on Day 1</sub> | 📝 [Review](#)<br><sub>Qualtrics</sub> | 📝 [Review](#)<br><sub>Qualtrics</sub> |
 | **9:20**<br><sub>35 min</sub> | [**1.1** Precise Problem Statement](https://docs.google.com/presentation/d/19F_dyS1gyARTKDC4A7VhXfAqa37Ww3J-jo4HBQzW1LM/edit)<br><sub>Prompt Engineering · Projects</sub> | [**2.1** Choosing the Stack](https://docs.google.com/presentation/d/1BhU0KXCwd-4_aiJi6UIg--O-vKpCmtlLYq7qtKU9KWA/edit)<br><sub>RAG · Projects</sub> | [**3.1** Designing the Attack](https://docs.google.com/presentation/d/1rwB-bS8uV6_HHuY_HsynuqQaVd6JEBPUsnG_KQdu5Fk/edit)<br><sub>Agents</sub> |
 | **10:00**<br><sub>10 min</sub> | 🔎 **Project Check** | 🔎 **Project Check** | 🔎 **Project Check** |
-| **10:10**<br><sub>45 min</sub> | [**1.2** Mapping the Workflow](https://docs.google.com/presentation/d/1XAnYqdYMZUFAWrHt89fI3VXio4r9zw1oFZUXLiXNwnk/edit)<br><sub>Artifacts · Routines</sub><br><br>[**1.3** Dividing the Work](https://docs.google.com/presentation/d/1s2irX2aa0V_Leb1W5GQzD1XZWTZODmYq1ZY83nbSx1Q/edit)<br><sub>Cowork · GitHub</sub> | [**2.2** Building the Happy Path](https://docs.google.com/presentation/d/1aGiB7UICy0W50rKcHJCFI-4xMUA618xCd0X6SXtj6SM/edit)<br><sub>Claude Code · GitHub</sub><br><br>[**2.3** Making It Demoable](https://docs.google.com/presentation/d/1aInhHLjgBKjHpFNCbnnfp34uM3-z0Pi48sHBdV1mOFw/edit)<br><sub>Pages · Cloudflare</sub> | [**3.2** Peer Red-Team Round](https://docs.google.com/presentation/d/1B6ZqXQ1xjsIvMhuyr7J1o6hP7w44bLVgwxSo7-s8YwM/edit)<br><sub>Agents · Nvidia API</sub><br><br>[**3.3** Hardening &amp; Handoff](https://docs.google.com/presentation/d/1UfGGDTFBnVDigmXIXJD9nRgmnU8-Y37HaFWd3JMQUwA/edit)<br><sub>Unlimited Routines · GitHub</sub> |
-| **11:00**<br><sub>20 min</sub> | [**1.4** Intro to GenAI](https://docs.google.com/presentation/d/19wvUcRZMfEE5SmdM-PeijmNdScwPlJ28qK2S6z9te_o/edit)<br><sub>Prompt Engineering</sub> | [**2.4** Advanced GenAI](https://docs.google.com/presentation/d/1prwOHOnUWwCDr5wNL_hinIvqRbbQMv50v4qUZgOGVKg/edit)<br><sub>RAG · Fine-tuning · Agents</sub> | 🎤 **Team demos**<br><sub>11:00–11:50</sub> |
-| **11:20**<br><sub>30 min</sub> | 👥 **Team work** | 👥 **Team work** | <sub>team demos continue</sub> |
+| **10:10**<br><sub>45 min</sub> | [**1.2** Mapping the Workflow](https://docs.google.com/presentation/d/1XAnYqdYMZUFAWrHt89fI3VXio4r9zw1oFZUXLiXNwnk/edit)<br><sub>Artifacts · Routines</sub><br><br>[**1.3** Dividing the Work](https://docs.google.com/presentation/d/1s2irX2aa0V_Leb1W5GQzD1XZWTZODmYq1ZY83nbSx1Q/edit)<br><sub>Cowork · GitHub</sub> | [**2.2** Building the Happy Path](https://docs.google.com/presentation/d/1aGiB7UICy0W50rKcHJCFI-4xMUA618xCd0X6SXtj6SM/edit)<br><sub>Claude Code · GitHub</sub><br><br>[**2.3** Making It Demoable](https://docs.google.com/presentation/d/1aInhHLjgBKjHpFNCbnnfp34uM3-z0Pi48sHBdV1mOFw/edit)<br><sub>Pages · Cloudflare · Supabase</sub> | [**3.2** Peer Red-Team Round](https://docs.google.com/presentation/d/1B6ZqXQ1xjsIvMhuyr7J1o6hP7w44bLVgwxSo7-s8YwM/edit)<br><sub>Agents · Nvidia API</sub><br><br>[**3.3** Hardening &amp; Handoff](https://docs.google.com/presentation/d/1UfGGDTFBnVDigmXIXJD9nRgmnU8-Y37HaFWd3JMQUwA/edit)<br><sub>Unlimited Routines · GitHub</sub> |
+| **11:00**<br><sub>20 min</sub> | [**1.4** Intro to GenAI](https://docs.google.com/presentation/d/19wvUcRZMfEE5SmdM-PeijmNdScwPlJ28qK2S6z9te_o/edit)<br><sub>Prompt Engineering</sub> | [**2.4** Advanced GenAI](https://docs.google.com/presentation/d/1prwOHOnUWwCDr5wNL_hinIvqRbbQMv50v4qUZgOGVKg/edit)<br><sub>RAG · Fine-tuning · Agents</sub> | **3.4** Bonus: Anki &amp; Certifications<br><sub>Anki · AWS Cert · Claude Cert</sub> |
+| **11:20**<br><sub>30 min</sub> | 👥 **Team work** | 👥 **Team work** | 🎤 **Team demos** |
 
 ---
 
@@ -102,10 +102,10 @@
 <a id="s23"></a>
 
 ### 2.3 · Making It Demoable
-`10:10–10:55` · shares the block with 2.2 · 🤖 `GitHub Pages` `Cloudflare` `Claude Artifacts`
+`10:10–10:55` · shares the block with 2.2 · 🤖 `GitHub Pages` `Cloudflare` `Supabase` `Claude Artifacts`
 
-1. Wrap the prototype in a front end a stranger can drive — a **Claude Artifact**, or a page you write and host
-2. Ship it to a public URL with **GitHub Pages** or **Cloudflare**, so your demo does not depend on your laptop staying open
+1. Wrap the prototype in a front end a stranger can drive — a **Claude Artifact**, or a page you host on **GitHub Pages** or **Cloudflare**
+2. Add **Supabase** so the demo remembers what people entered and can handle sign-in — and switch on **row level security** first, since the public key is only safe with it on
 3. Write a three-minute demo script, and document what is stubbed, faked, or known-broken — this is Day 3's attack surface
 
 📊 [Slides](https://docs.google.com/presentation/d/1aInhHLjgBKjHpFNCbnnfp34uM3-z0Pi48sHBdV1mOFw/edit)
@@ -159,6 +159,17 @@
 3. Set up **unlimited Claude Routines** — schedule as many recurring checks as the prototype needs, so it keeps being tested after you stop looking
 
 📊 [Slides](https://docs.google.com/presentation/d/1UfGGDTFBnVDigmXIXJD9nRgmnU8-Y37HaFWd3JMQUwA/edit)
+
+<a id="s34"></a>
+
+### 3.4 · Bonus: Anki & Certifications
+`11:00–11:20` · followed by 30 min of team demos · 🤖 `Anki` `AWS Certification` `Claude Certification`
+
+1. Use **Anki** to keep what you learned this week — spaced repetition on the handful of facts you will still need in six months
+2. Place the **AWS certification** path against where you are now, and pick whether Cloud Practitioner or an Associate cert is the right first target
+3. Know what the **Claude certification** covers, and how it signals AI fluency to employers who cannot yet evaluate it themselves
+
+📊 [Slides](#)
 
 ---
 
