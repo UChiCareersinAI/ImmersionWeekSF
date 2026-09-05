@@ -17,7 +17,7 @@
 | **9:00**<br><sub>20 min</sub> | 👋 [Course &amp; instructor intro](https://docs.google.com/presentation/d/1USdZNSgxWCCTmUhBCkM3ACzpbJMm5JSANJSRRlpRYbs/edit)<br><sub>no review on Day 1</sub> | 📝 [Review](#)<br><sub>Qualtrics</sub> | 📝 [Review](#)<br><sub>Qualtrics</sub> |
 | **9:20**<br><sub>35 min</sub> | [**1.1** Precise Problem Statement](https://docs.google.com/presentation/d/19F_dyS1gyARTKDC4A7VhXfAqa37Ww3J-jo4HBQzW1LM/edit)<br><sub>Prompt Engineering · Projects</sub> | [**2.1** Choosing the Stack](https://docs.google.com/presentation/d/1BhU0KXCwd-4_aiJi6UIg--O-vKpCmtlLYq7qtKU9KWA/edit)<br><sub>RAG · Projects</sub> | [**3.1** Designing the Attack](https://docs.google.com/presentation/d/1rwB-bS8uV6_HHuY_HsynuqQaVd6JEBPUsnG_KQdu5Fk/edit)<br><sub>Agents</sub> |
 | **10:00**<br><sub>10 min</sub> | 🔎 **Project Check** | 🔎 **Project Check** | 🔎 **Project Check** |
-| **10:10**<br><sub>45 min</sub> | [**1.2** Mapping the Workflow](https://docs.google.com/presentation/d/1XAnYqdYMZUFAWrHt89fI3VXio4r9zw1oFZUXLiXNwnk/edit)<br><sub>Artifacts · Routines</sub><br><br>[**1.3** Dividing the Work](https://docs.google.com/presentation/d/1s2irX2aa0V_Leb1W5GQzD1XZWTZODmYq1ZY83nbSx1Q/edit)<br><sub>Cowork · GitHub</sub> | [**2.2** Building the Happy Path](https://docs.google.com/presentation/d/1aGiB7UICy0W50rKcHJCFI-4xMUA618xCd0X6SXtj6SM/edit)<br><sub>Claude Code · GitHub</sub><br><br>[**2.3** Making It Demoable](https://docs.google.com/presentation/d/1aInhHLjgBKjHpFNCbnnfp34uM3-z0Pi48sHBdV1mOFw/edit)<br><sub>Pages · Cloudflare · Supabase</sub> | [**3.2** Peer Red-Team Round](https://docs.google.com/presentation/d/1B6ZqXQ1xjsIvMhuyr7J1o6hP7w44bLVgwxSo7-s8YwM/edit)<br><sub>Agents · Nvidia API</sub><br><br>[**3.3** Hardening &amp; Handoff](https://docs.google.com/presentation/d/1UfGGDTFBnVDigmXIXJD9nRgmnU8-Y37HaFWd3JMQUwA/edit)<br><sub>Unlimited Routines · GitHub</sub><br><br>**3.4** Bonus: Anki &amp; Certifications<br><sub>Anki · AWS Cert · Claude Cert</sub> |
+| **10:10**<br><sub>45 min</sub> | [**1.2** Mapping the Workflow](https://docs.google.com/presentation/d/1XAnYqdYMZUFAWrHt89fI3VXio4r9zw1oFZUXLiXNwnk/edit)<br><sub>Artifacts · Routines</sub><br><br>[**1.3** Dividing the Work](https://docs.google.com/presentation/d/1s2irX2aa0V_Leb1W5GQzD1XZWTZODmYq1ZY83nbSx1Q/edit)<br><sub>Cowork · GitHub</sub> | [**2.2** Building the Happy Path](https://docs.google.com/presentation/d/1aGiB7UICy0W50rKcHJCFI-4xMUA618xCd0X6SXtj6SM/edit)<br><sub>Claude Code · GitHub</sub><br><br>[**2.3** Making It Demoable](https://docs.google.com/presentation/d/1aInhHLjgBKjHpFNCbnnfp34uM3-z0Pi48sHBdV1mOFw/edit)<br><sub>Pages · Cloudflare · Supabase</sub> | [**3.2** Peer Red-Team Round](https://docs.google.com/presentation/d/1B6ZqXQ1xjsIvMhuyr7J1o6hP7w44bLVgwxSo7-s8YwM/edit)<br><sub>Agents · Nvidia API</sub><br><br>[**3.3** Hardening &amp; Handoff](https://docs.google.com/presentation/d/1UfGGDTFBnVDigmXIXJD9nRgmnU8-Y37HaFWd3JMQUwA/edit)<br><sub>Unlimited Routines · GitHub</sub><br><br>[**3.4** Bonus: Anki &amp; Certifications](https://docs.google.com/presentation/d/1O_YufgCicqwyqmBspl7S2SJlvJ3yXtukUl3qS6A7pa8/edit)<br><sub>Anki · AWS Cert · Claude Cert</sub> |
 | **11:00**<br><sub>20 min</sub> | [**1.4** Intro to GenAI](https://docs.google.com/presentation/d/19wvUcRZMfEE5SmdM-PeijmNdScwPlJ28qK2S6z9te_o/edit)<br><sub>Prompt Engineering</sub> | [**2.4** Advanced GenAI](https://docs.google.com/presentation/d/1prwOHOnUWwCDr5wNL_hinIvqRbbQMv50v4qUZgOGVKg/edit)<br><sub>RAG · Fine-tuning · Agents</sub> | 🎤 **Team demos**<br><sub>11:00–11:50</sub> |
 | **11:20**<br><sub>30 min</sub> | 👥 **Team work** | 👥 **Team work** | <sub>team demos continue</sub> |
 
@@ -165,11 +165,11 @@
 ### 3.4 · Bonus: Anki & Certifications
 `10:10–10:55` · shares the block with 3.2 and 3.3 · 🤖 `Anki` `AWS Certification` `Claude Certification`
 
-1. Use **Anki** to keep what you learned this week — spaced repetition on the handful of facts you will still need in six months
-2. Place the **AWS certification** path against where you are now, and pick whether Cloud Practitioner or an Associate cert is the right first target
-3. Know what the **Claude certification** covers, and how it signals AI fluency to employers who cannot yet evaluate it themselves
+1. Write **atomic** flashcards — one hyper-specific topic each, answerable in 3–5 seconds — and see why a two-topic card fails
+2. Use **recall**, not recognition: no multiple choice, no true/false, because recall costs more cognitively and generalizes where recognition does not
+3. Let **Anki**'s two outcomes do the scheduling — remembered pushes a card later, forgotten pulls it sooner — then point the habit at the **AWS** and **Claude certification** paths
 
-📊 [Slides](#)
+📊 [Slides](https://docs.google.com/presentation/d/1O_YufgCicqwyqmBspl7S2SJlvJ3yXtukUl3qS6A7pa8/edit)
 
 ---
 
