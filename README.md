@@ -17,8 +17,7 @@
 | **9:00**<br><sub>20 min</sub> | 👋 [Course &amp; instructor intro](https://docs.google.com/presentation/d/1USdZNSgxWCCTmUhBCkM3ACzpbJMm5JSANJSRRlpRYbs/edit)<br><sub>no review on Day 1</sub> | 📝 [Review](#)<br><sub>Qualtrics</sub> | 📝 [Review](#)<br><sub>Qualtrics</sub> |
 | **9:20**<br><sub>35 min</sub> | [**1.1** Precise Problem Statement](https://docs.google.com/presentation/d/19F_dyS1gyARTKDC4A7VhXfAqa37Ww3J-jo4HBQzW1LM/edit)<br><sub>Prompt Engineering · Projects</sub> | [**2.1** Choosing the Stack](https://docs.google.com/presentation/d/1BhU0KXCwd-4_aiJi6UIg--O-vKpCmtlLYq7qtKU9KWA/edit)<br><sub>RAG · Projects</sub> | [**3.1** Designing the Attack](https://docs.google.com/presentation/d/1rwB-bS8uV6_HHuY_HsynuqQaVd6JEBPUsnG_KQdu5Fk/edit)<br><sub>Agents</sub> |
 | **9:55**<br><sub>5 min</sub> | ☕ **Break** | ☕ **Break** | ☕ **Break** |
-| **10:00**<br><sub>10 min</sub> | 🔎 **Project Check** | 🔎 **Project Check** | 🔎 **Project Check** |
-| **10:10**<br><sub>45 min</sub> | [**1.2** Mapping the Workflow](https://docs.google.com/presentation/d/1XAnYqdYMZUFAWrHt89fI3VXio4r9zw1oFZUXLiXNwnk/edit)<br><sub>Artifacts · Routines</sub><br><br>[**1.3** Dividing the Work](https://docs.google.com/presentation/d/1s2irX2aa0V_Leb1W5GQzD1XZWTZODmYq1ZY83nbSx1Q/edit)<br><sub>Cowork · GitHub</sub> | [**2.2** Building the Happy Path](https://docs.google.com/presentation/d/1aGiB7UICy0W50rKcHJCFI-4xMUA618xCd0X6SXtj6SM/edit)<br><sub>Claude Code · GitHub</sub><br><br>[**2.3** Making It Demoable](https://docs.google.com/presentation/d/1aInhHLjgBKjHpFNCbnnfp34uM3-z0Pi48sHBdV1mOFw/edit)<br><sub>Pages · Cloudflare · Supabase</sub> | [**3.2** Peer Red-Team Round](https://docs.google.com/presentation/d/1B6ZqXQ1xjsIvMhuyr7J1o6hP7w44bLVgwxSo7-s8YwM/edit)<br><sub>Agents · Nvidia API</sub><br><br>[**3.3** Hardening &amp; Handoff](https://docs.google.com/presentation/d/1UfGGDTFBnVDigmXIXJD9nRgmnU8-Y37HaFWd3JMQUwA/edit)<br><sub>Unlimited Routines · GitHub</sub><br><br>[**3.4** Bonus: Anki &amp; Certifications](https://docs.google.com/presentation/d/1O_YufgCicqwyqmBspl7S2SJlvJ3yXtukUl3qS6A7pa8/edit)<br><sub>Anki · AWS Cert · Claude Cert</sub> |
+| **10:00**<br><sub>55 min</sub> | [**1.2** Mapping the Workflow](https://docs.google.com/presentation/d/1XAnYqdYMZUFAWrHt89fI3VXio4r9zw1oFZUXLiXNwnk/edit)<br><sub>Artifacts · Routines</sub><br><br>[**1.3** Dividing the Work](https://docs.google.com/presentation/d/1s2irX2aa0V_Leb1W5GQzD1XZWTZODmYq1ZY83nbSx1Q/edit)<br><sub>Cowork · GitHub</sub> | [**2.2** Building the Happy Path](https://docs.google.com/presentation/d/1aGiB7UICy0W50rKcHJCFI-4xMUA618xCd0X6SXtj6SM/edit)<br><sub>Claude Code · GitHub</sub><br><br>[**2.3** Making It Demoable](https://docs.google.com/presentation/d/1aInhHLjgBKjHpFNCbnnfp34uM3-z0Pi48sHBdV1mOFw/edit)<br><sub>Pages · Cloudflare · Supabase</sub> | [**3.2** Peer Red-Team Round](https://docs.google.com/presentation/d/1B6ZqXQ1xjsIvMhuyr7J1o6hP7w44bLVgwxSo7-s8YwM/edit)<br><sub>Agents · Nvidia API</sub><br><br>[**3.3** Hardening &amp; Handoff](https://docs.google.com/presentation/d/1UfGGDTFBnVDigmXIXJD9nRgmnU8-Y37HaFWd3JMQUwA/edit)<br><sub>Unlimited Routines · GitHub</sub><br><br>[**3.4** Bonus: Anki &amp; Certifications](https://docs.google.com/presentation/d/1O_YufgCicqwyqmBspl7S2SJlvJ3yXtukUl3qS6A7pa8/edit)<br><sub>Anki · AWS Cert · Claude Cert</sub> |
 | **10:55**<br><sub>5 min</sub> | ☕ **Break** | ☕ **Break** | ☕ **Break** |
 | **11:00**<br><sub>20 min</sub> | [**1.4** Intro to GenAI](https://docs.google.com/presentation/d/19wvUcRZMfEE5SmdM-PeijmNdScwPlJ28qK2S6z9te_o/edit)<br><sub>Prompt Engineering</sub> | [**2.4** Advanced GenAI](https://docs.google.com/presentation/d/1prwOHOnUWwCDr5wNL_hinIvqRbbQMv50v4qUZgOGVKg/edit)<br><sub>RAG · Fine-tuning · Agents</sub> | 🎤 **Team demos** |
 | **11:20**<br><sub>30 min</sub> | 👥 **Team work** | 👥 **Team work** | ⚔️ **Red teaming** |
@@ -43,7 +42,7 @@
 <a id="s12"></a>
 
 ### 1.2 · Mapping the Workflow to the Solution
-`10:10–10:55` · shares the block with 1.3 · 🤖 `Claude Artifacts` `Claude Routines` `Prompt Engineering`
+`10:00–10:55` · shares the block with 1.3 · 🤖 `Claude Artifacts` `Claude Routines` `Prompt Engineering`
 
 1. Decompose the problem into a stepwise workflow, from raw input to delivered output
 2. Turn that workflow into a **Claude Artifact** — a diagram the whole team can see, revise, and share by link
@@ -54,7 +53,7 @@
 <a id="s13"></a>
 
 ### 1.3 · Dividing the Work Across the Team
-`10:10–10:55` · shares the block with 1.2 · 🤖 `Claude Cowork` `GitHub`
+`10:00–10:55` · shares the block with 1.2 · 🤖 `Claude Cowork` `GitHub`
 
 1. Inventory the team's actual skills and assign every workflow step a single owner
 2. Use **Claude Cowork** to run several workstreams in parallel without the team stepping on each other
@@ -93,7 +92,7 @@
 <a id="s22"></a>
 
 ### 2.2 · Building the Happy Path
-`10:10–10:55` · shares the block with 2.3 · 🤖 `Claude Code` `GitHub`
+`10:00–10:55` · shares the block with 2.3 · 🤖 `Claude Code` `GitHub`
 
 1. Drive **Claude Code** to implement each step against one known-good input — no edge cases, no error handling, not yet
 2. Connect the steps so a single input reaches a finished output with no manual intervention
@@ -104,7 +103,7 @@
 <a id="s23"></a>
 
 ### 2.3 · Making It Demoable
-`10:10–10:55` · shares the block with 2.2 · 🤖 `GitHub Pages` `Cloudflare` `Supabase` `Claude Artifacts`
+`10:00–10:55` · shares the block with 2.2 · 🤖 `GitHub Pages` `Cloudflare` `Supabase` `Claude Artifacts`
 
 1. Wrap the prototype in a front end a stranger can drive — a **Claude Artifact**, or a page you host on **GitHub Pages** or **Cloudflare**
 2. Add **Supabase** so the demo remembers what people entered and can handle sign-in — and switch on **row level security** first, since the public key is only safe with it on
@@ -143,7 +142,7 @@
 <a id="s32"></a>
 
 ### 3.2 · Peer Red-Team Round
-`10:10–10:55` · shares the block with 3.3 and 3.4 · 🤖 `Agents` `Nvidia API`
+`10:00–10:55` · shares the block with 3.3 and 3.4 · 🤖 `Agents` `Nvidia API`
 
 1. Break another team's prototype — run their test script by hand, then turn your testing agent loose on it
 2. Use **Nvidia's free LLM API** to generate adversarial inputs in bulk, so volume costs you nothing
@@ -154,7 +153,7 @@
 <a id="s33"></a>
 
 ### 3.3 · Hardening & Handoff
-`10:10–10:55` · shares the block with 3.2 and 3.4 · 🤖 `Unlimited Routines` `GitHub`
+`10:00–10:55` · shares the block with 3.2 and 3.4 · 🤖 `Unlimited Routines` `GitHub`
 
 1. Triage the failure log by severity against cost to fix, and commit to a cut line
 2. Fix what is above the line, re-run the exact tests that caught each one, and push to **GitHub**
@@ -165,7 +164,7 @@
 <a id="s34"></a>
 
 ### 3.4 · Bonus: Anki & Certifications
-`10:10–10:55` · shares the block with 3.2 and 3.3 · 🤖 `Anki` `AWS Certification` `Claude Certification`
+`10:00–10:55` · shares the block with 3.2 and 3.3 · 🤖 `Anki` `AWS Certification` `Claude Certification`
 
 1. Write **atomic** flashcards — one hyper-specific topic each, answerable in 3–5 seconds — and see why a two-topic card fails
 2. Use **recall**, not recognition: no multiple choice, no true/false, because recall costs more cognitively and generalizes where recognition does not
