@@ -15,11 +15,11 @@
 | Time (PT) | 🧭 **Day 1 · The Blueprint**<br><sub>Tue Sep 22 · 💬 conversational</sub> | 🔨 **Day 2 · The Build**<br><sub>Wed Sep 23 · 🔧 constructive</sub> | ⚔️ **Day 3 · The Battle Test**<br><sub>Thu Sep 24 · 🚀 autonomous</sub> |
 |:--|:--|:--|:--|
 | **9:00**<br><sub>20 min</sub> | 📝 [Pre-Course Survey](https://usfca.qualtrics.com/jfe/form/SV_1YBX3u0s0haJWM6)<br>👋 [Course &amp; instructor intro](https://docs.google.com/presentation/d/1USdZNSgxWCCTmUhBCkM3ACzpbJMm5JSANJSRRlpRYbs/edit) | 📝 [Review](#)<br><sub>Qualtrics</sub> | 📝 [Review](#)<br><sub>Qualtrics</sub> |
-| **9:20**<br><sub>35 min</sub> | [**1.1** Precise Problem Statement](https://docs.google.com/presentation/d/19F_dyS1gyARTKDC4A7VhXfAqa37Ww3J-jo4HBQzW1LM/edit)<br><sub>Prompt Engineering · Projects</sub> | [**2.1** Choosing the Stack](https://docs.google.com/presentation/d/1BhU0KXCwd-4_aiJi6UIg--O-vKpCmtlLYq7qtKU9KWA/edit)<br><sub>RAG · Projects</sub> | [**3.1** Designing the Attack](https://docs.google.com/presentation/d/1rwB-bS8uV6_HHuY_HsynuqQaVd6JEBPUsnG_KQdu5Fk/edit)<br><sub>Agents</sub> |
+| **9:20**<br><sub>35 min</sub> | [**1.1** Precise Problem Statement](https://docs.google.com/presentation/d/19F_dyS1gyARTKDC4A7VhXfAqa37Ww3J-jo4HBQzW1LM/edit)<br><sub>Prompt Engineering · Projects</sub> | [**2.1** Bonus: Choosing the Stack](https://docs.google.com/presentation/d/1BhU0KXCwd-4_aiJi6UIg--O-vKpCmtlLYq7qtKU9KWA/edit)<br><sub>RAG · Projects</sub> | [**3.1** Designing the Attack](https://docs.google.com/presentation/d/1rwB-bS8uV6_HHuY_HsynuqQaVd6JEBPUsnG_KQdu5Fk/edit)<br><sub>Agents</sub> |
 | **9:55**<br><sub>5 min</sub> | ☕ **Break** | ☕ **Break** | ☕ **Break** |
-| **10:00**<br><sub>55 min</sub> | [**1.2** Mapping the Workflow](https://docs.google.com/presentation/d/1XAnYqdYMZUFAWrHt89fI3VXio4r9zw1oFZUXLiXNwnk/edit)<br><sub>Artifacts · Routines</sub><br><br>[**1.3** Dividing the Work](https://docs.google.com/presentation/d/1s2irX2aa0V_Leb1W5GQzD1XZWTZODmYq1ZY83nbSx1Q/edit)<br><sub>Cowork · GitHub</sub> | [**2.2** Building the Happy Path](https://docs.google.com/presentation/d/1aGiB7UICy0W50rKcHJCFI-4xMUA618xCd0X6SXtj6SM/edit)<br><sub>Claude Code · GitHub</sub><br><br>[**2.3** Making It Demoable](https://docs.google.com/presentation/d/1aInhHLjgBKjHpFNCbnnfp34uM3-z0Pi48sHBdV1mOFw/edit)<br><sub>Pages · Cloudflare · Supabase</sub> | [**3.2** Peer Red-Team Round](https://docs.google.com/presentation/d/1B6ZqXQ1xjsIvMhuyr7J1o6hP7w44bLVgwxSo7-s8YwM/edit)<br><sub>Agents · Nvidia API</sub><br><br>[**3.3** Hardening &amp; Handoff](https://docs.google.com/presentation/d/1UfGGDTFBnVDigmXIXJD9nRgmnU8-Y37HaFWd3JMQUwA/edit)<br><sub>Unlimited Routines · GitHub</sub><br><br>[**3.4** Bonus: Anki &amp; Certifications](https://docs.google.com/presentation/d/1O_YufgCicqwyqmBspl7S2SJlvJ3yXtukUl3qS6A7pa8/edit)<br><sub>Anki · AWS Cert · Claude Cert</sub> |
+| **10:00**<br><sub>55 min</sub> | [**1.2** Mapping the Workflow](https://docs.google.com/presentation/d/1XAnYqdYMZUFAWrHt89fI3VXio4r9zw1oFZUXLiXNwnk/edit)<br><sub>Artifacts · Routines</sub><br><br>[**1.3** Dividing the Work](https://docs.google.com/presentation/d/1s2irX2aa0V_Leb1W5GQzD1XZWTZODmYq1ZY83nbSx1Q/edit)<br><sub>Cowork · GitHub</sub> | [**2.2** Bonus: Building the Happy Path](https://docs.google.com/presentation/d/1aGiB7UICy0W50rKcHJCFI-4xMUA618xCd0X6SXtj6SM/edit)<br><sub>Claude Code · GitHub</sub><br><br>[**2.3** Making It Demoable](https://docs.google.com/presentation/d/1aInhHLjgBKjHpFNCbnnfp34uM3-z0Pi48sHBdV1mOFw/edit)<br><sub>Pages · Cloudflare · Supabase</sub> | [**3.2** Peer Red-Team Round](https://docs.google.com/presentation/d/1B6ZqXQ1xjsIvMhuyr7J1o6hP7w44bLVgwxSo7-s8YwM/edit)<br><sub>Agents · Nvidia API</sub><br><br>[**3.3** Hardening &amp; Handoff](https://docs.google.com/presentation/d/1UfGGDTFBnVDigmXIXJD9nRgmnU8-Y37HaFWd3JMQUwA/edit)<br><sub>Unlimited Routines · GitHub</sub><br><br>[**3.4** Bonus: Anki &amp; Certifications](https://docs.google.com/presentation/d/1O_YufgCicqwyqmBspl7S2SJlvJ3yXtukUl3qS6A7pa8/edit)<br><sub>Anki · AWS Cert · Claude Cert</sub> |
 | **10:55**<br><sub>5 min</sub> | ☕ **Break** | ☕ **Break** | ☕ **Break** |
-| **11:00**<br><sub>20 min</sub> | [**1.4** Intro to GenAI](https://docs.google.com/presentation/d/19wvUcRZMfEE5SmdM-PeijmNdScwPlJ28qK2S6z9te_o/edit)<br><sub>Prompt Engineering</sub> | [**2.4** Advanced GenAI](https://docs.google.com/presentation/d/1prwOHOnUWwCDr5wNL_hinIvqRbbQMv50v4qUZgOGVKg/edit)<br><sub>RAG · Fine-tuning · Agents</sub> | 🎤 **Team demos**<br>📝 [Post-Course Survey](https://usfca.qualtrics.com/jfe/form/SV_b9iOCwv2T8jRYTs) |
+| **11:00**<br><sub>20 min</sub> | [**1.4** Bonus: Intro to GenAI](https://docs.google.com/presentation/d/19wvUcRZMfEE5SmdM-PeijmNdScwPlJ28qK2S6z9te_o/edit)<br><sub>Prompt Engineering</sub> | [**2.4** Bonus: Advanced GenAI](https://docs.google.com/presentation/d/1prwOHOnUWwCDr5wNL_hinIvqRbbQMv50v4qUZgOGVKg/edit)<br><sub>RAG · Fine-tuning · Agents</sub> | 🎤 **Team demos**<br>📝 [Post-Course Survey](https://usfca.qualtrics.com/jfe/form/SV_b9iOCwv2T8jRYTs) |
 | **11:20**<br><sub>30 min</sub> | 👥 **Team work** | 👥 **Team work** | ⚔️ **Red teaming** |
 
 ---
@@ -63,7 +63,7 @@
 
 <a id="s14"></a>
 
-### 1.4 · Intro to GenAI
+### 1.4 · Bonus: Intro to GenAI
 `11:00–11:20` · followed by 30 min of team work · 🤖 `Prompt Engineering`
 
 1. Explain what a generative model actually does — predict the next token over a context window — and why that one fact accounts for most of its failure modes
@@ -80,7 +80,7 @@
 
 <a id="s21"></a>
 
-### 2.1 · Choosing Your Low-Code Stack
+### 2.1 · Bonus: Choosing Your Low-Code Stack
 `9:20–9:55` · 🤖 `RAG` `Claude Projects`
 
 1. Match each step of yesterday's workflow map to a specific tool, and decide deliberately what to **stub** and what to **build**
@@ -91,7 +91,7 @@
 
 <a id="s22"></a>
 
-### 2.2 · Building the Happy Path
+### 2.2 · Bonus: Building the Happy Path
 `10:00–10:55` · shares the block with 2.3 · 🤖 `Claude Code` `GitHub`
 
 1. Drive **Claude Code** to implement each step against one known-good input — no edge cases, no error handling, not yet
@@ -113,7 +113,7 @@
 
 <a id="s24"></a>
 
-### 2.4 · Advanced GenAI
+### 2.4 · Bonus: Advanced GenAI
 `11:00–11:20` · followed by 30 min of team work · 🤖 `RAG` `Fine-tuning` `Agents`
 
 1. Tell when **RAG** is the right answer and when **fine-tuning** is — retrieval for knowledge that keeps changing, fine-tuning for behavior that has to stay consistent
