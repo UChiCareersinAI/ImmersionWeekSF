@@ -174,6 +174,31 @@
 
 ---
 
+## 📈 Where the cohort started
+
+![Diverging bar chart of self-rated tool confidence across nine tools among 15 students before Day 1. Claude chat is highest at 93% confident; below Claude Projects the cohort is net not-confident, bottoming out at NVIDIA API on 7%.](tool-confidence.svg)
+
+<details>
+<summary>Response counts</summary>
+
+| Tool | Not at all | Slightly | Moderately | Very | Extremely | % confident |
+|:--|--:|--:|--:|--:|--:|--:|
+| Claude chat (claude.ai) | 0 | 0 | 1 | 5 | 9 | **93%** |
+| Claude Code | 1 | 1 | 3 | 6 | 4 | **67%** |
+| GitHub | 0 | 2 | 5 | 5 | 3 | **53%** |
+| Claude Projects | 2 | 1 | 4 | 6 | 2 | **53%** |
+| Claude Artifacts | 2 | 3 | 7 | 1 | 2 | **20%** |
+| Claude Routines | 2 | 5 | 6 | 2 | 0 | **13%** |
+| Supabase | 8 | 3 | 1 | 2 | 1 | **20%** |
+| Cloudflare Workers | 10 | 2 | 1 | 1 | 1 | **13%** |
+| NVIDIA API | 10 | 2 | 2 | 1 | 0 | **7%** |
+
+<sub>Counts out of 15 responses · “% confident” = very + extremely</sub>
+
+</details>
+
+---
+
 <div align="center">
 
 <sub>Immersion Week SF · University of Chicago Careers in AI</sub>

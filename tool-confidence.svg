@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="706" viewBox="0 0 1060 706" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" role="img" aria-label="Diverging bar chart: self-rated confidence with nine tools among 15 students before Immersion Week SF Day 1. Claude chat highest at 93 percent confident; NVIDIA API lowest at 7 percent.">
+<rect width="1060" height="706" rx="18" fill="#FBF8F5" stroke="#E8E1D9"/>
+<rect x="44" y="42" width="38" height="4" rx="2" fill="#800000"/>
+<text x="44" y="88" font-size="30" font-weight="600" fill="#1A1614" letter-spacing="-0.4">Tool confidence before Day 1</text>
+<text x="44" y="114" font-size="14.5" fill="#55504B">“How confident are you that you could use each of the following on your own for a real task?”</text>
+<g font-size="12.5" fill="#55504B">
+<rect x="44" y="140" width="11" height="11" rx="2.5" fill="#155F83"/><text x="62" y="149.5">Not at all</text>
+<rect x="212" y="140" width="11" height="11" rx="2.5" fill="#5B8FA8"/><text x="230" y="149.5">Slightly</text>
+<rect x="380" y="140" width="11" height="11" rx="2.5" fill="#A9A29B"/><text x="398" y="149.5">Moderately</text>
+<rect x="548" y="140" width="11" height="11" rx="2.5" fill="#B1746F"/><text x="566" y="149.5">Very</text>
+<rect x="716" y="140" width="11" height="11" rx="2.5" fill="#800000"/><text x="734" y="149.5">Extremely</text>
+</g>
+<line x1="256.0" y1="182" x2="256.0" y2="614" stroke="#EFE9E2" stroke-width="1"/>
+<line x1="418.0" y1="182" x2="418.0" y2="614" stroke="#EFE9E2" stroke-width="1"/>
+<line x1="742.0" y1="182" x2="742.0" y2="614" stroke="#EFE9E2" stroke-width="1"/>
+<line x1="904.0" y1="182" x2="904.0" y2="614" stroke="#EFE9E2" stroke-width="1"/>
+<line x1="580.0" y1="182" x2="580.0" y2="614" stroke="#BDB3A8" stroke-width="1"/>
+<text x="1016" y="170" font-size="11.5" fill="#8A837C" text-anchor="end" letter-spacing="0.7">% CONFIDENT</text>
+<text x="236" y="211.5" text-anchor="end" font-size="14.5" font-weight="500" fill="#1A1614">Claude chat (claude.ai)</text>
+<g fill="#A9A29B"><path d="M573.20,196.00 H588.80 V218.00 V218.00 H573.20 a4,4 0 0 1 -4,-4 V200.00 a4,4 0 0 1 4,-4 Z"/></g>
+<g fill="#B1746F"><rect x="590.80" y="196.00" width="106.00" height="22.00"/></g>
+<g fill="#800000"><path d="M698.80,196.00 H889.20 a4,4 0 0 1 4,4 V214.00 a4,4 0 0 1 -4,4 H698.80 V196.00 Z"/></g>
+<text x="1016" y="211.5" text-anchor="end" font-size="15" font-weight="600" fill="#1A1614">93%</text>
+<text x="236" y="255.5" text-anchor="end" font-size="14.5" font-weight="500" fill="#1A1614">Claude Code</text>
+<g fill="#155F83"><path d="M508.40,240.00 H524.00 V262.00 V262.00 H508.40 a4,4 0 0 1 -4,-4 V244.00 a4,4 0 0 1 4,-4 Z"/></g>
+<g fill="#5B8FA8"><rect x="526.00" y="240.00" width="19.60" height="22.00"/></g>
+<g fill="#A9A29B"><rect x="547.60" y="240.00" width="62.80" height="22.00"/></g>
+<g fill="#B1746F"><rect x="612.40" y="240.00" width="127.60" height="22.00"/></g>
+<g fill="#800000"><path d="M742.00,240.00 H824.40 a4,4 0 0 1 4,4 V258.00 a4,4 0 0 1 -4,4 H742.00 V240.00 Z"/></g>
+<text x="1016" y="255.5" text-anchor="end" font-size="15" font-weight="600" fill="#1A1614">67%</text>
+<text x="236" y="299.5" text-anchor="end" font-size="14.5" font-weight="500" fill="#1A1614">GitHub</text>
+<g fill="#5B8FA8"><path d="M486.80,284.00 H524.00 V306.00 V306.00 H486.80 a4,4 0 0 1 -4,-4 V288.00 a4,4 0 0 1 4,-4 Z"/></g>
+<g fill="#A9A29B"><rect x="526.00" y="284.00" width="106.00" height="22.00"/></g>
+<g fill="#B1746F"><rect x="634.00" y="284.00" width="106.00" height="22.00"/></g>
+<g fill="#800000"><path d="M742.00,284.00 H802.80 a4,4 0 0 1 4,4 V302.00 a4,4 0 0 1 -4,4 H742.00 V284.00 Z"/></g>
+<text x="1016" y="299.5" text-anchor="end" font-size="15" font-weight="600" fill="#1A1614">53%</text>
+<text x="236" y="343.5" text-anchor="end" font-size="14.5" font-weight="500" fill="#1A1614">Claude Projects</text>
+<g fill="#155F83"><path d="M476.00,328.00 H513.20 V350.00 V350.00 H476.00 a4,4 0 0 1 -4,-4 V332.00 a4,4 0 0 1 4,-4 Z"/></g>
+<g fill="#5B8FA8"><rect x="515.20" y="328.00" width="19.60" height="22.00"/></g>
+<g fill="#A9A29B"><rect x="536.80" y="328.00" width="84.40" height="22.00"/></g>
+<g fill="#B1746F"><rect x="623.20" y="328.00" width="127.60" height="22.00"/></g>
+<g fill="#800000"><path d="M752.80,328.00 H792.00 a4,4 0 0 1 4,4 V346.00 a4,4 0 0 1 -4,4 H752.80 V328.00 Z"/></g>
+<text x="1016" y="343.5" text-anchor="end" font-size="15" font-weight="600" fill="#1A1614">53%</text>
+<text x="236" y="415.5" text-anchor="end" font-size="14.5" font-weight="500" fill="#1A1614">Claude Artifacts</text>
+<g fill="#155F83"><path d="M400.40,400.00 H437.60 V422.00 V422.00 H400.40 a4,4 0 0 1 -4,-4 V404.00 a4,4 0 0 1 4,-4 Z"/></g>
+<g fill="#5B8FA8"><rect x="439.60" y="400.00" width="62.80" height="22.00"/></g>
+<g fill="#A9A29B"><rect x="504.40" y="400.00" width="149.20" height="22.00"/></g>
+<g fill="#B1746F"><rect x="655.60" y="400.00" width="19.60" height="22.00"/></g>
+<g fill="#800000"><path d="M677.20,400.00 H716.40 a4,4 0 0 1 4,4 V418.00 a4,4 0 0 1 -4,4 H677.20 V400.00 Z"/></g>
+<text x="1016" y="415.5" text-anchor="end" font-size="15" font-weight="600" fill="#1A1614">20%</text>
+<text x="236" y="459.5" text-anchor="end" font-size="14.5" font-weight="500" fill="#1A1614">Claude Routines</text>
+<g fill="#155F83"><path d="M368.00,444.00 H405.20 V466.00 V466.00 H368.00 a4,4 0 0 1 -4,-4 V448.00 a4,4 0 0 1 4,-4 Z"/></g>
+<g fill="#5B8FA8"><rect x="407.20" y="444.00" width="106.00" height="22.00"/></g>
+<g fill="#A9A29B"><rect x="515.20" y="444.00" width="127.60" height="22.00"/></g>
+<g fill="#B1746F"><path d="M644.80,444.00 H684.00 a4,4 0 0 1 4,4 V462.00 a4,4 0 0 1 -4,4 H644.80 V444.00 Z"/></g>
+<text x="1016" y="459.5" text-anchor="end" font-size="15" font-weight="600" fill="#1A1614">13%</text>
+<text x="236" y="503.5" text-anchor="end" font-size="14.5" font-weight="500" fill="#1A1614">Supabase</text>
+<g fill="#155F83"><path d="M335.60,488.00 H502.40 V510.00 V510.00 H335.60 a4,4 0 0 1 -4,-4 V492.00 a4,4 0 0 1 4,-4 Z"/></g>
+<g fill="#5B8FA8"><rect x="504.40" y="488.00" width="62.80" height="22.00"/></g>
+<g fill="#A9A29B"><rect x="569.20" y="488.00" width="19.60" height="22.00"/></g>
+<g fill="#B1746F"><rect x="590.80" y="488.00" width="41.20" height="22.00"/></g>
+<g fill="#800000"><path d="M634.00,488.00 H651.60 a4,4 0 0 1 4,4 V506.00 a4,4 0 0 1 -4,4 H634.00 V488.00 Z"/></g>
+<text x="1016" y="503.5" text-anchor="end" font-size="15" font-weight="600" fill="#1A1614">20%</text>
+<text x="236" y="547.5" text-anchor="end" font-size="14.5" font-weight="500" fill="#1A1614">Cloudflare Workers</text>
+<g fill="#155F83"><path d="M314.00,532.00 H524.00 V554.00 V554.00 H314.00 a4,4 0 0 1 -4,-4 V536.00 a4,4 0 0 1 4,-4 Z"/></g>
+<g fill="#5B8FA8"><rect x="526.00" y="532.00" width="41.20" height="22.00"/></g>
+<g fill="#A9A29B"><rect x="569.20" y="532.00" width="19.60" height="22.00"/></g>
+<g fill="#B1746F"><rect x="590.80" y="532.00" width="19.60" height="22.00"/></g>
+<g fill="#800000"><path d="M612.40,532.00 H630.00 a4,4 0 0 1 4,4 V550.00 a4,4 0 0 1 -4,4 H612.40 V532.00 Z"/></g>
+<text x="1016" y="547.5" text-anchor="end" font-size="15" font-weight="600" fill="#1A1614">13%</text>
+<text x="236" y="591.5" text-anchor="end" font-size="14.5" font-weight="500" fill="#1A1614">NVIDIA API</text>
+<g fill="#155F83"><path d="M303.20,576.00 H513.20 V598.00 V598.00 H303.20 a4,4 0 0 1 -4,-4 V580.00 a4,4 0 0 1 4,-4 Z"/></g>
+<g fill="#5B8FA8"><rect x="515.20" y="576.00" width="41.20" height="22.00"/></g>
+<g fill="#A9A29B"><rect x="558.40" y="576.00" width="41.20" height="22.00"/></g>
+<g fill="#B1746F"><path d="M601.60,576.00 H619.20 a4,4 0 0 1 4,4 V594.00 a4,4 0 0 1 -4,4 H601.60 V576.00 Z"/></g>
+<text x="1016" y="591.5" text-anchor="end" font-size="15" font-weight="600" fill="#1A1614">7%</text>
+<line x1="44" y1="375.0" x2="1016" y2="375.0" stroke="#DED6CC" stroke-width="1"/>
+<text x="44" y="367.0" font-size="11.5" fill="#8A837C">below: more students not confident than confident</text>
+<g font-size="12" fill="#8A837C" text-anchor="middle">
+<text x="256.0" y="632">100%</text>
+<text x="418.0" y="632">50%</text>
+<text x="580.0" y="632">0</text>
+<text x="742.0" y="632">50%</text>
+<text x="904.0" y="632">100%</text>
+</g>
+<text x="256" y="652" font-size="12" fill="#8A837C">← less confident</text>
+<text x="904" y="652" font-size="12" fill="#8A837C" text-anchor="end">more confident →</text>
+<text x="44" y="680" font-size="12" fill="#8A837C">Immersion Week SF · pre-course check, 22 Sep 2026 · 15 responses · bars centred on “moderately confident” · “% confident” = very + extremely</text>
+</svg>
