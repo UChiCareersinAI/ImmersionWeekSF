@@ -14,8 +14,8 @@
 
 | Time (PT) | 🧭 **Day 1 · The Blueprint**<br><sub>Tue Sep 22 · 💬 conversational</sub> | 🔨 **Day 2 · The Build**<br><sub>Wed Sep 23 · 🔧 constructive</sub> | ⚔️ **Day 3 · The Battle Test**<br><sub>Thu Sep 24 · 🚀 autonomous</sub> |
 |:--|:--|:--|:--|
-| **9:00**<br><sub>20 min</sub> | 📝 [Pre-Course Survey](https://usfca.qualtrics.com/jfe/form/SV_1YBX3u0s0haJWM6)<br>👋 [Course &amp; instructor intro](https://docs.google.com/presentation/d/1USdZNSgxWCCTmUhBCkM3ACzpbJMm5JSANJSRRlpRYbs/edit) | 📝 [Review](#)<br><sub>Qualtrics</sub> | 📝 [Review](#)<br><sub>Qualtrics</sub> |
-| **9:20**<br><sub>35 min</sub> | [**1.1** Precise Problem Statement](https://docs.google.com/presentation/d/19F_dyS1gyARTKDC4A7VhXfAqa37Ww3J-jo4HBQzW1LM/edit)<br><sub>Prompt Engineering · Projects</sub> | [**2.1** Bonus: Choosing the Stack](https://docs.google.com/presentation/d/1BhU0KXCwd-4_aiJi6UIg--O-vKpCmtlLYq7qtKU9KWA/edit)<br><sub>RAG · Projects</sub> | [**3.1** Designing the Attack](https://docs.google.com/presentation/d/1rwB-bS8uV6_HHuY_HsynuqQaVd6JEBPUsnG_KQdu5Fk/edit)<br><sub>Agents</sub> |
+| **9:00**<br><sub>10 min</sub> | 📝 [Pre-Course Survey](https://usfca.qualtrics.com/jfe/form/SV_1YBX3u0s0haJWM6)<br><sub>Qualtrics</sub> | 📝 [Review](#)<br><sub>Qualtrics</sub> | 📝 [Review](#)<br><sub>Qualtrics</sub> |
+| **9:10**<br><sub>45 min</sub> | 👋 [Course &amp; instructor intro](https://docs.google.com/presentation/d/1USdZNSgxWCCTmUhBCkM3ACzpbJMm5JSANJSRRlpRYbs/edit)<br><sub>9:10–9:20</sub><br><br>[**1.1** Precise Problem Statement](https://docs.google.com/presentation/d/19F_dyS1gyARTKDC4A7VhXfAqa37Ww3J-jo4HBQzW1LM/edit)<br><sub>9:20–9:55 · Prompt Engineering · Projects</sub> | [**2.1** Bonus: Choosing the Stack](https://docs.google.com/presentation/d/1BhU0KXCwd-4_aiJi6UIg--O-vKpCmtlLYq7qtKU9KWA/edit)<br><sub>RAG · Projects</sub> | [**3.1** Designing the Attack](https://docs.google.com/presentation/d/1rwB-bS8uV6_HHuY_HsynuqQaVd6JEBPUsnG_KQdu5Fk/edit)<br><sub>Agents</sub> |
 | **9:55**<br><sub>5 min</sub> | ☕ **Break** | ☕ **Break** | ☕ **Break** |
 | **10:00**<br><sub>55 min</sub> | [**1.2** Mapping the Workflow](https://docs.google.com/presentation/d/1XAnYqdYMZUFAWrHt89fI3VXio4r9zw1oFZUXLiXNwnk/edit)<br><sub>Artifacts · Routines</sub><br><br>[**1.3** Dividing the Work](https://docs.google.com/presentation/d/1s2irX2aa0V_Leb1W5GQzD1XZWTZODmYq1ZY83nbSx1Q/edit)<br><sub>Cowork · GitHub</sub> | [**2.2** Bonus: Building the Happy Path](https://docs.google.com/presentation/d/1aGiB7UICy0W50rKcHJCFI-4xMUA618xCd0X6SXtj6SM/edit)<br><sub>Claude Code · GitHub</sub><br><br>[**2.3** Making It Demoable](https://docs.google.com/presentation/d/1aInhHLjgBKjHpFNCbnnfp34uM3-z0Pi48sHBdV1mOFw/edit)<br><sub>Pages · Cloudflare · Supabase</sub> | [**3.2** Peer Red-Team Round](https://docs.google.com/presentation/d/1B6ZqXQ1xjsIvMhuyr7J1o6hP7w44bLVgwxSo7-s8YwM/edit)<br><sub>Agents · Nvidia API</sub><br><br>[**3.3** Hardening &amp; Handoff](https://docs.google.com/presentation/d/1UfGGDTFBnVDigmXIXJD9nRgmnU8-Y37HaFWd3JMQUwA/edit)<br><sub>Unlimited Routines · GitHub</sub><br><br>[**3.4** Bonus: Anki &amp; Certifications](https://docs.google.com/presentation/d/1O_YufgCicqwyqmBspl7S2SJlvJ3yXtukUl3qS6A7pa8/edit)<br><sub>Anki · AWS Cert · Claude Cert</sub> |
 | **10:55**<br><sub>5 min</sub> | ☕ **Break** | ☕ **Break** | ☕ **Break** |
@@ -81,7 +81,7 @@
 <a id="s21"></a>
 
 ### 2.1 · Bonus: Choosing Your Low-Code Stack
-`9:20–9:55` · 🤖 `RAG` `Claude Projects`
+`9:10–9:55` · 🤖 `RAG` `Claude Projects`
 
 1. Match each step of yesterday's workflow map to a specific tool, and decide deliberately what to **stub** and what to **build**
 2. Tell the difference between needing **RAG** and just needing context in the window — then pick the cheaper one that works
@@ -131,7 +131,7 @@
 <a id="s31"></a>
 
 ### 3.1 · Designing the Attack
-`9:20–9:55` · 🤖 `Agents` `Prompt Engineering`
+`9:10–9:55` · 🤖 `Agents` `Prompt Engineering`
 
 1. Build an edge-case inventory across the standard axes: empty, malformed, adversarial, out-of-scope, and at scale
 2. Learn what an **agent** actually is — a loop with tools and a goal — and when the four tests (complexity, value, viability, cost of error) say to build one
