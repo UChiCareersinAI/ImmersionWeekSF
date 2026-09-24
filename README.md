@@ -231,6 +231,44 @@
 
 </details>
 
+![Tech confidence before and after the course. Overall mean rose from 2.88 to 3.54 on a 5-point scale. Confidence rose on all nine tools, most on NVIDIA API (+1.09), Cloudflare Workers (+1.04) and Supabase (+0.85), least on GitHub (+0.09).](confidence-before-after.svg)
+
+<details>
+<summary>Before → after means, and the 12 who answered both times</summary>
+
+Mean answer on a 5-point scale (1 = not at all confident, 5 = extremely confident), all students in each wave.
+
+| Tool | Before (15) | After (13) | Shift |
+|:--|--:|--:|--:|
+| NVIDIA API | 1.60 | 2.69 | **+1.09** |
+| Cloudflare Workers | 1.73 | 2.77 | **+1.04** |
+| Supabase | 2.00 | 2.85 | **+0.85** |
+| Claude Projects | 3.33 | 4.15 | **+0.82** |
+| Claude Routines | 2.53 | 3.31 | **+0.77** |
+| Claude Artifacts | 2.87 | 3.62 | **+0.75** |
+| Claude Code | 3.73 | 4.00 | **+0.27** |
+| Claude chat (claude.ai) | 4.53 | 4.77 | **+0.24** |
+| GitHub | 3.60 | 3.69 | **+0.09** |
+| **All nine** | **2.88** | **3.54** | **+0.66** |
+
+Among the 12 students present in both waves:
+
+| Tool | Up | Same | Down | Shift |
+|:--|--:|--:|--:|--:|
+| Cloudflare Workers | 12 | 0 | 0 | **+1.42** |
+| NVIDIA API | 11 | 1 | 0 | **+1.33** |
+| Supabase | 10 | 2 | 0 | **+1.25** |
+| Claude Projects | 6 | 6 | 0 | **+0.92** |
+| Claude Artifacts | 7 | 5 | 0 | **+0.83** |
+| Claude Routines | 8 | 4 | 0 | **+0.75** |
+| Claude Code | 4 | 7 | 1 | **+0.33** |
+| Claude chat (claude.ai) | 3 | 8 | 1 | **+0.17** |
+| GitHub | 2 | 9 | 1 | **+0.17** |
+
+<sub>Average shift across the 12 who took both: **+0.80**. The before and after waves are different sizes, so the two tables are not directly comparable.</sub>
+
+</details>
+
 ---
 
 <div align="center">
