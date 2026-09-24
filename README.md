@@ -174,7 +174,7 @@
 
 ---
 
-## 📈 Where the cohort started
+## 📈 How the cohort is doing
 
 ![Diverging bar chart of self-rated tool confidence across nine tools among 15 students before Day 1. Claude chat is highest at 93% confident; below Claude Projects the cohort is net not-confident, bottoming out at NVIDIA API on 7%.](tool-confidence.svg)
 
@@ -200,7 +200,7 @@
 ![Histogram of Day 1 review scores for 12 students in ten-point bands: one student in 60–70, one in 70–80, five in 80–90, five in 90–100. Range 67–97%, mean 87%, median 90%.](review-scores.svg)
 
 <details>
-<summary>Score bands</summary>
+<summary>Score bands · Day 1</summary>
 
 | Band | Students |
 |:--|--:|
@@ -210,6 +210,24 @@
 | 90–100% | 5 |
 
 <sub>12 students · range 67–97% · mean 87% · median 90% · nobody scored below 60%</sub>
+
+</details>
+
+![Histogram of Day 2 review scores for 13 students in ten-point bands: one student in 40–50, four in 60–70, four in 70–80, two in 80–90, two in 90–100. Range 44–95%, mean 73%, median 71%.](review-scores-day2.svg)
+
+<details>
+<summary>Score bands · Day 2</summary>
+
+| Band | Students |
+|:--|--:|
+| 40–50% | 1 |
+| 50–60% | 0 |
+| 60–70% | 4 |
+| 70–80% | 4 |
+| 80–90% | 2 |
+| 90–100% | 2 |
+
+<sub>13 students · range 44–95% · mean 73% · median 71% · nobody scored below 40%</sub>
 
 </details>
 

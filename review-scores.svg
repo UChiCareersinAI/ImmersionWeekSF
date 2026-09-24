@@ -1,15 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="700" viewBox="0 0 1060 700" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" role="img" aria-label="Histogram of Day 1 review scores for 12 students in ten-point bands: one student in 60 to 70, one in 70 to 80, five in 80 to 90, five in 90 to 100. Range 67 to 97 percent, mean 87, median 90.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="700" viewBox="0 0 1060 700" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" role="img" aria-label="Histogram of Day 1 review scores for 12 students in ten-point bands: 1 in 60 to 70, 1 in 70 to 80, 5 in 80 to 90, 5 in 90 to 100. Range 67 to 97 percent, mean 87, median 90.">
 <rect width="1060" height="700" rx="18" fill="#FBF8F5" stroke="#E8E1D9"/>
 <rect x="44" y="42" width="38" height="4" rx="2" fill="#800000"/>
 <text x="44" y="88" font-size="30" font-weight="600" fill="#1A1614" letter-spacing="-0.4">Day 1 review scores</text>
 <text x="44" y="114" font-size="14.5" fill="#55504B">Each bar is a ten-point band; its height is the number of students in it. The rail below the axis carries the spread, with the mean and median on it.</text>
 <line x1="150" y1="372" x2="1016" y2="372" stroke="#EFE9E2" stroke-width="1"/>
 <line x1="150" y1="264" x2="1016" y2="264" stroke="#EFE9E2" stroke-width="1"/>
-<g font-size="12.5" fill="#8A837C" text-anchor="end">
-<text x="136" y="484.5">0</text>
-<text x="136" y="376.5">2</text>
-<text x="136" y="268.5">4</text>
-</g>
+<g font-size="12.5" fill="#8A837C" text-anchor="end"><text x="136" y="484.5">0</text><text x="136" y="376.5">2</text><text x="136" y="268.5">4</text></g>
 <text transform="translate(106,345.0) rotate(-90)" text-anchor="middle" font-size="11.5" fill="#8A837C" letter-spacing="1.4">STUDENTS</text>
 <path d="M670.60,480 V430.00 a4,4 0 0 1 4,-4 H751.20 a4,4 0 0 1 4,4 V480 Z" fill="#800000"/>
 <text x="712.9" y="415.0" text-anchor="middle" font-size="16" font-weight="700" fill="#1A1614">1</text>
@@ -22,19 +18,7 @@
 <path d="M154.0,433 V440 H666.6 V433" fill="none" stroke="#D8D0C7" stroke-width="1"/>
 <text x="410.3" y="426.0" text-anchor="middle" font-size="13.5" fill="#55504B">No one scored below 60%</text>
 <line x1="150" y1="480" x2="1016" y2="480" stroke="#D8D0C7" stroke-width="1"/>
-<g font-size="12.5" fill="#8A837C" text-anchor="middle">
-<text x="150.0" y="504">0</text>
-<text x="236.6" y="504">10</text>
-<text x="323.2" y="504">20</text>
-<text x="409.8" y="504">30</text>
-<text x="496.4" y="504">40</text>
-<text x="583.0" y="504">50</text>
-<text x="669.6" y="504">60</text>
-<text x="756.2" y="504">70</text>
-<text x="842.8" y="504">80</text>
-<text x="929.4" y="504">90</text>
-<text x="1016.0" y="504">100</text>
-</g>
+<g font-size="12.5" fill="#8A837C" text-anchor="middle"><text x="150.0" y="504">0</text><text x="236.6" y="504">10</text><text x="323.2" y="504">20</text><text x="409.8" y="504">30</text><text x="496.4" y="504">40</text><text x="583.0" y="504">50</text><text x="669.6" y="504">60</text><text x="756.2" y="504">70</text><text x="842.8" y="504">80</text><text x="929.4" y="504">90</text><text x="1016.0" y="504">100</text></g>
 <rect x="730.2" y="552" width="259.8" height="8" rx="4" fill="#E2CDC9"/>
 <line x1="903.4" y1="530" x2="903.4" y2="546" stroke="#D8D0C7" stroke-width="1"/>
 <circle cx="903.4" cy="556" r="7" fill="#1A1614" stroke="#1A1614" stroke-width="2"/>
