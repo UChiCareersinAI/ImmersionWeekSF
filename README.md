@@ -197,6 +197,22 @@
 
 </details>
 
+![Histogram of Day 1 review scores for 12 students in ten-point bands: one student in 60–70, one in 70–80, five in 80–90, five in 90–100. Range 67–97%, mean 87%, median 90%.](review-scores.svg)
+
+<details>
+<summary>Score bands</summary>
+
+| Band | Students |
+|:--|--:|
+| 60–70% | 1 |
+| 70–80% | 1 |
+| 80–90% | 5 |
+| 90–100% | 5 |
+
+<sub>12 students · range 67–97% · mean 87% · median 90% · nobody scored below 60%</sub>
+
+</details>
+
 ---
 
 <div align="center">
